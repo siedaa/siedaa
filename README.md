@@ -25,7 +25,7 @@
 ### 🛠️ Tech Stack
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=py,js,html,css,react,nodejs,git,github,vscode&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=py,cpp,js,html,css,react,nodejs,git,github,vscode&theme=dark" />
 </p>
 
 **AI / ML:** ![Gemini](https://img.shields.io/badge/-Google_Gemini-4285F4?style=flat-square&logo=google&logoColor=white) ![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square) ![ChromaDB](https://img.shields.io/badge/-ChromaDB-FF6F00?style=flat-square) ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
@@ -55,6 +55,22 @@ A full Retrieval-Augmented Generation pipeline built over the Transformer resear
 </td>
 <td width="50%" valign="top">
 
+**🤖 [RAG Chatbot — Chunking & Retrieval Techniques](https://github.com/siedaa/Rag-chat-bot---aiseason)**
+
+An experimentation-focused RAG chatbot built to compare and benchmark different retrieval strategies.
+
+- Implements **3 chunking strategies** for document ingestion
+- Implements **2 retrieval techniques** for comparison
+- Includes dedicated scripts for A/B testing, ingestion, and pipeline evaluation
+- Clean, modular pipeline: ingestion → chunking demo → retrieval demo → LLM testing
+
+`Python` `RAG` `LLM Evaluation`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
 **📊 Sisters Attendance — Admin Portal** *(Private repo)*
 
 A full attendance management system with an admin dashboard for tracking meeting attendance.
@@ -67,16 +83,45 @@ A full attendance management system with an admin dashboard for tracking meeting
 `JavaScript` `React` `HTML` `CSS`
 
 </td>
-</tr>
-</table>
+<td width="50%" valign="top">
 
-<table>
+**🎨 [DSA Color Palette Generator](https://github.com/siedaa/dsa-color-palette-generator-cpp)**
+
+An interactive desktop app that creates, edits, sorts, and explores color palettes — built to demonstrate core data structures through a real GUI.
+
+- Custom **stack-based undo/redo** system
+- **Circular queue** for recent-edits history
+- **Merge sort** for sorting by brightness, hue, or saturation
+- Nearest-neighbor color name matching + 30+ preset themes
+- Built with C++ and SFML, complete with sound effects and animations
+
+`C++` `SFML` `Data Structures & Algorithms`
+
+</td>
+</tr>
 <tr>
-<td width="100%" valign="top">
+<td width="50%" valign="top">
+
+**🍬 [M & I CandyPop! — OOP Game](https://github.com/siedaa/-M-and-I-Candy-Pop-Game--OOP-Project.)**
+
+A Candy Crush-style match-and-clear game demonstrating Object-Oriented Programming principles in practice.
+
+- Grid-based board with candy matching & clearing logic
+- Full scoring system and graphical UI
+- Built entirely in C++ using SFML
+
+`C++` `SFML` `OOP`
+
+</td>
+<td width="50%" valign="top">
 
 **🏢 Organization Web Portal** *(In Progress 🚧)*
 
 A complete web portal being built for an organization — more details coming soon as development wraps up.
+
+**💬 WhatsApp Automation Bot** *(In Progress 🚧)*
+
+An automation bot for WhatsApp — currently under development.
 
 </td>
 </tr>
