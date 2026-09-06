@@ -1,5 +1,7 @@
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&weight=800&size=40&pause=900&color=1F9C8F&center=true&vCenter=true&width=500&height=60&lines=Hello!+I'm+Maha+%F0%9F%91%8B&repeat=false" alt="Hello! I'm Maha" />
+  <a href="https://github.com/siedaa">
+    <img src="https://capsule-render.vercel.app/api?type=transparent&fontColor=1f9c8f&fontSize=54&height=90&width=570&text=Hello!%20I'm%20Maha" alt="Hello! I&#39;m Maha" />
+  </a>
 </p>
 
 <p align="center">
@@ -8,13 +10,12 @@
 
 ### 🚀 About Me
 
-I'm an aspiring AI Engineer who learns best by building , not just reading papers, but shipping working systems.
+Aspiring AI Engineer | Learning agentic AI, RAG systems, and automation by building real projects
 
-Right now I'm deep in building an **AI video interviewer** that joins live video calls, listens, adapts, and interviews candidates in real time using LangGraph, Gemini Live, and LiveKit , alongside a **red-teaming toolkit** that stress-tests RAG chatbots for security gaps.
-
-Along the way I've built multimodal RAG pipelines, browser-automation agents, and full-stack tools , mostly because I wanted to *understand* how these systems actually work under the hood, not just use them.
-
-Always up for talking about RAG pipelines, agentic AI, or automation , feel free to reach out. 💬
+🔭 &nbsp;I'm currently working on **an AI video interviewer that joins live calls (LangGraph + Gemini Live + LiveKit), and an AI red-teaming toolkit for RAG chatbot security**
+🌱 &nbsp;I'm currently learning **voice AI pipelines, agent orchestration with LangGraph, and MCP server development**
+👯 &nbsp;I'm looking to collaborate on **agentic AI tools, automation agents, and RAG-based systems**
+💬 &nbsp;Ask me about **RAG pipelines, automation agents, or anything I'm currently building**
 
 ### 🛠️ Tech Stack
 
@@ -199,11 +200,16 @@ A Candy Crush-style match-and-clear game built in C++ demonstrating Object-Orien
 </td>
 <td width="50%" valign="top">
 
-**💬 WhatsApp Automation Bot**
+**💬 [WhatsApp AI Chatbot — RAG + Persistent Memory](https://github.com/siedaa/WhatsAPP-chat-Bot)**
 
-A RAG-powered WhatsApp chatbot with persistent memory — routes messages, retrieves from a knowledge base, and holds context across conversations.
+A WhatsApp chatbot built with Baileys (WhatsApp Web API) that routes each message through conversation, RAG-based Q&A, or personal-fact recall.
 
-`Node.js` `RAG` `WhatsApp API`
+- **RAG knowledge base**: Groq LLM answers strictly grounded in a local knowledge base via HuggingFace embeddings + in-memory vector retrieval
+- **Personal memory**: extracts structured facts (name, city, hobbies, etc.) from messages via a Zod-validated LLM extractor and recalls them on request
+- **Smart routing**: lightweight keyword/regex router decides between recall, RAG, or plain chat
+- QR-code login via Baileys — no official WhatsApp Business API needed
+
+`Node.js` `Baileys` `LangChain` `Groq` `Zod` `HuggingFace Transformers` `RAG`
 
 </td>
 </tr>
