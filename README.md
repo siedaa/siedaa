@@ -1,40 +1,93 @@
-<h1 align="center">Hi, I'm Maha Fatima 👋</h1>
-<h3 align="center">Building Agentic AI systems, automations, and full-stack apps</h3>
-
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=2F81F7&center=true&vCenter=true&width=600&lines=Agentic+AI+%26+Automation+Engineer;Building+Multimodal+RAG+Systems;Full-Stack+Developer+(React+%7C+JS+%7C+HTML%2FCSS);Turning+ideas+into+working+products" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&weight=800&size=40&pause=900&color=1F9C8F&center=true&vCenter=true&width=500&height=60&lines=Hello!+I'm+Maha+%F0%9F%91%8B&repeat=false" alt="Hello! I'm Maha" />
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/syeda-maha-fatima/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:siedaamaha@gmail.com"><img src="https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+  <img src="https://readme-typing-svg.demolab.com?font=Caveat&weight=600&size=26&pause=1000&color=56d4dd&center=true&vCenter=true&width=600&height=50&lines=Agentic+AI+%26+Automation+Engineer;Building+Multimodal+RAG+Systems;Full-Stack+Developer+(React+%7C+JS+%7C+HTML%2FCSS);Turning+ideas+into+working+products" alt="Typing headlines" />
 </p>
-
----
 
 ### 🚀 About Me
 
-- 🤖 Currently focused on **Agentic AI**, **automation pipelines**, and **AI engineering**
-- 🧠 Recently built a full **multimodal RAG system** over a research paper (text + tables + figures)
-- 🏢 Developing a **complete web portal** for an organization *(in progress)*
-- 📋 Built an **attendance management system** with an admin dashboard, PDF/Excel exports, and smart filtering
-- 🌱 Always exploring new tools in the LLM & automation space
+I'm an aspiring AI Engineer who learns best by building , not just reading papers, but shipping working systems.
 
----
+Right now I'm deep in building an **AI video interviewer** that joins live video calls, listens, adapts, and interviews candidates in real time using LangGraph, Gemini Live, and LiveKit , alongside a **red-teaming toolkit** that stress-tests RAG chatbots for security gaps.
+
+Along the way I've built multimodal RAG pipelines, browser-automation agents, and full-stack tools , mostly because I wanted to *understand* how these systems actually work under the hood, not just use them.
+
+Always up for talking about RAG pipelines, agentic AI, or automation , feel free to reach out. 💬
 
 ### 🛠️ Tech Stack
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=py,cpp,js,html,css,react,nodejs,git,github,vscode&theme=dark" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java" />
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" alt="C" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django" />
+  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge" alt="LangGraph" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge" alt="LangChain" />
+  <img src="https://img.shields.io/badge/Google%20Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Gemini" />
+  <img src="https://img.shields.io/badge/Groq-F55036?style=for-the-badge" alt="Groq" />
+  <img src="https://img.shields.io/badge/LiveKit-FF3D2E?style=for-the-badge" alt="LiveKit" />
+  <img src="https://img.shields.io/badge/ChromaDB-FF6F00?style=for-the-badge" alt="ChromaDB" />
+  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge" alt="Playwright" />
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel" />
+  <img src="https://img.shields.io/badge/DigitalOcean-0080FF?style=for-the-badge&logo=digitalocean&logoColor=white" alt="DigitalOcean" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  <img src="https://img.shields.io/badge/GitLab-FC6D26?style=for-the-badge&logo=gitlab&logoColor=white" alt="GitLab" />
+  <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=vscodium&logoColor=white" alt="VS Code" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman" />
 </p>
 
-**AI / ML:** ![Gemini](https://img.shields.io/badge/-Google_Gemini-4285F4?style=flat-square&logo=google&logoColor=white) ![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square) ![ChromaDB](https://img.shields.io/badge/-ChromaDB-FF6F00?style=flat-square) ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+### 🔗 Connect With Me
 
-**Web:** ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+<p align="left">
+  <a href="https://www.linkedin.com/in/syeda-maha-fatima/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:siedaamaha@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
 
 ---
 
-### 🌟 Featured Projects
+### 🌟 Flagship Projects
+
+<table>
+<tr>
+<td width="100%" valign="top">
+
+**🎙️ AI Video Interviewer**
+
+An AI that parses a real job description, resume, and GitHub repos into a recruiter-approved question plan — then joins a LiveKit video call as a face and voice to interview the candidate live.
+
+- Voice + avatar powered by **Gemini Live** (`gemini-2.5-flash-native-audio-preview-12-2025`) with a 2D lip-synced avatar
+- **Adaptive follow-up questions** with instant barge-in — it can interrupt mid-answer, like a real interviewer
+- **LangGraph** orchestration with a SQLite checkpointer for state persistence
+- Produces an **evidence-quote-backed scorecard** after the interview
+- **Groq** handles offline resume/JD parsing and scoring
+- Exposes full functionality through an **MCP server for Claude Desktop**
+
+`LangGraph` `Gemini Live` `LiveKit` `Groq` `FastMCP` `SQLite` `ReportLab`
+
+</td>
+</tr>
+</table>
 
 <table>
 <tr>
@@ -42,29 +95,75 @@
 
 **🔍 [Multimodal RAG — "Attention Is All You Need"](https://github.com/siedaa/multimodal-rag-attention-paper)**
 
-A full Retrieval-Augmented Generation pipeline built over the Transformer research paper — handling **three modalities** (text, tables, figures) from a single PDF.
+A full RAG pipeline over the Transformer research paper handling **three modalities** (text, tables, figures) from a single PDF.
 
-- Extracts & unifies text, borderless tables, and figures into one vector store
-- Embeddings via Google Gemini, stored in ChromaDB (cosine similarity)
+- Gemini embeddings stored in ChromaDB with cosine similarity
 - **Figure re-attachment**: retrieved images sent directly to the LLM for vision-grounded answers
 - Interactive Streamlit UI with source cards per modality
-- Handles 28+ edge cases: rate limits, borderless tables, vector-only figures, and more
+- Handles 28+ edge cases across extraction, retrieval, and UI
 
-`Python` `Gemini API` `ChromaDB` `Streamlit` `PyMuPDF` `pdfplumber`
+`Python` `Gemini API` `ChromaDB` `Streamlit`
 
 </td>
 <td width="50%" valign="top">
 
+**🤖 [Lead Generation Agent](https://github.com/siedaa/-Lead-Generation-Agent-)**
+
+An AI agent that takes a natural language prompt like *"coffee shops in Karachi"* and autonomously finds business leads.
+
+- **Groq LLM** parses the prompt into category + location
+- **Playwright** browser automation searches Bing Maps and scrapes results
+- Auto-discovers contact emails from business websites
+- Exports everything to Excel, with a Streamlit UI option
+
+`Python` `Playwright` `Groq API` `Streamlit` `openpyxl`
+
+</td>
+</tr>
+</table>
+
+---
+
+### 💼 More Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
 **🤖 [RAG Chatbot — Chunking & Retrieval Techniques](https://github.com/siedaa/Rag-chat-bot---aiseason)**
 
-An experimentation-focused RAG chatbot built to compare and benchmark different retrieval strategies.
-
-- Implements **3 chunking strategies** for document ingestion
-- Implements **2 retrieval techniques** for comparison
-- Includes dedicated scripts for A/B testing, ingestion, and pipeline evaluation
-- Clean, modular pipeline: ingestion → chunking demo → retrieval demo → LLM testing
+Benchmarks 3 chunking strategies and 2 retrieval techniques for RAG pipelines, with dedicated A/B testing scripts.
 
 `Python` `RAG` `LLM Evaluation`
+
+</td>
+<td width="50%" valign="top">
+
+**📄 [PDF Report Generator](https://github.com/siedaa/-PDF-report-generator)**
+
+A FastAPI backend that aggregates SQLite order data via SQL, renders it to HTML, then converts it to a downloadable PDF using Playwright's headless Chromium. Fully idempotent report generation.
+
+`FastAPI` `SQLite` `Playwright` `SQL`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**🖼️ [AI Image Relevance Engine](https://github.com/siedaa/flyrank-capstone-image-relevance)**
+
+An AI-powered engine for understanding image content and matching relevance — capstone project with a full FastAPI + Alembic backend.
+
+`Python` `FastAPI` `Alembic` `Docker`
+
+</td>
+<td width="50%" valign="top">
+
+**🐳 [Containerized Task API](https://github.com/siedaa/Containerize-your-stack)**
+
+A CRUD Task API built with FastAPI + SQLModel, backed by a fully containerized PostgreSQL database — app and DB start together with one command.
+
+`FastAPI` `SQLModel` `PostgreSQL` `Docker`
 
 </td>
 </tr>
@@ -73,12 +172,7 @@ An experimentation-focused RAG chatbot built to compare and benchmark different 
 
 **📊 Sisters Attendance — Admin Portal** *(Private repo)*
 
-A full attendance management system with an admin dashboard for tracking meeting attendance.
-
-- Tracks individual attendance records and ranks top attendees
-- Generates **PDF & Excel reports** for meetings on demand
-- Filterable by topic and meeting type
-- Built with a JS/React front end and HTML/CSS
+Attendance management system with an admin dashboard: ranks top attendees, generates PDF & Excel reports, filterable by topic and meeting type.
 
 `JavaScript` `React` `HTML` `CSS`
 
@@ -87,15 +181,9 @@ A full attendance management system with an admin dashboard for tracking meeting
 
 **🎨 [DSA Color Palette Generator](https://github.com/siedaa/dsa-color-palette-generator-cpp)**
 
-An interactive desktop app that creates, edits, sorts, and explores color palettes — built to demonstrate core data structures through a real GUI.
+Interactive C++ desktop app demonstrating core data structures: stack-based undo/redo, circular queue history, and merge sort — through a real color-palette GUI.
 
-- Custom **stack-based undo/redo** system
-- **Circular queue** for recent-edits history
-- **Merge sort** for sorting by brightness, hue, or saturation
-- Nearest-neighbor color name matching + 30+ preset themes
-- Built with C++ and SFML, complete with sound effects and animations
-
-`C++` `SFML` `Data Structures & Algorithms`
+`C++` `SFML` `Data Structures`
 
 </td>
 </tr>
@@ -104,24 +192,36 @@ An interactive desktop app that creates, edits, sorts, and explores color palett
 
 **🍬 [M & I CandyPop! — OOP Game](https://github.com/siedaa/-M-and-I-Candy-Pop-Game--OOP-Project.)**
 
-A Candy Crush-style match-and-clear game demonstrating Object-Oriented Programming principles in practice.
-
-- Grid-based board with candy matching & clearing logic
-- Full scoring system and graphical UI
-- Built entirely in C++ using SFML
+A Candy Crush-style match-and-clear game built in C++ demonstrating Object-Oriented Programming principles with a full scoring system and GUI.
 
 `C++` `SFML` `OOP`
 
 </td>
 <td width="50%" valign="top">
 
-**🏢 Organization Web Portal** *(In Progress 🚧)*
+**💬 WhatsApp Automation Bot**
 
-A complete web portal being built for an organization — more details coming soon as development wraps up.
+A RAG-powered WhatsApp chatbot with persistent memory — routes messages, retrieves from a knowledge base, and holds context across conversations.
 
-**💬 WhatsApp Automation Bot** *(In Progress 🚧)*
+`Node.js` `RAG` `WhatsApp API`
 
-An automation bot for WhatsApp — currently under development.
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**🕵️ AI Red-Teaming Toolkit for RAG Chatbot Security**
+
+An adversarial testing toolkit that probes RAG chatbot pipelines for security weaknesses — built on the same multi-stage extraction/retrieval pipeline used in the multimodal RAG project.
+
+`Python` `RAG Security` `LLM Testing`
+
+</td>
+<td width="50%" valign="top">
+
+**🚧 In Progress**
+
+- **Organization Web Portal** — a complete web portal being built for an organization
 
 </td>
 </tr>
@@ -129,17 +229,23 @@ An automation bot for WhatsApp — currently under development.
 
 ---
 
-### 📈 GitHub Stats
+### 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=siedaa&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=siedaa&theme=tokyonight&hide_border=true" />
+  <img height="165" src="https://github-readme-stats-five-sigma-99.vercel.app/api/top-langs/?username=siedaa&layout=compact&theme=tokyonight&title_color=1f9c8f&icon_color=1f9c8f&hide_border=true&bg_color=00000000&langs_count=8" alt="top langs" />
 </p>
 
+### 📈 Contribution Graph
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=siedaa&layout=compact&theme=tokyonight&hide_border=true" />
+  <img width="100%" src="https://github-readme-activity-graph-gold-gamma.vercel.app/graph?username=siedaa&bg_color=00000000&color=1f9c8f&line=1f9c8f&point=c9d1d9&area=true&hide_border=true" alt="activity graph" />
+</p>
+
+### 💭 Dev Quote
+
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev quote" />
 </p>
 
 ---
-
-<p align="center"><i>⚡ Open to collaborating on AI agents, automation tools, and full-stack projects</i></p>
+<p align="center"><i>⭐️ From <a href="https://github.com/siedaa">siedaa</a></i></p>
