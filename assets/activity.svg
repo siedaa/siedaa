@@ -1,0 +1,552 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-labelledby="t d">
+  <title id="t">GitHub contribution activity</title>
+  <desc id="d">Line graph of weekly contributions over the last year: 574 in total.</desc>
+  <defs>
+    <!-- Glyph outlines used by the labels -->
+    <path id="nunito-bold-C" d="M405 -10 Q295 -10 216 34 Q138 79 96 160 Q54 242 54 353 Q54 436 78 502 Q102 569 147 616
+        Q192 664 258 690 Q323 715 405 715 Q460 715 513 701 Q566 687 606 661 Q627 648 634 630
+        Q641 611 637 594 Q633 576 620 564 Q608 552 590 550 Q571 549 549 563 Q518 583 482 592
+        Q446 601 409 601 Q338 601 289 572 Q240 543 215 488 Q190 433 190 353 Q190 274 215 218
+        Q240 162 289 133 Q338 104 409 104 Q447 104 484 114 Q521 123 554 143 Q576 156 594 154
+        Q611 153 623 142 Q635 131 639 114 Q643 98 637 80 Q631 63 613 50 Q573 21 518 6 Q462 -10 405 -10 Z"/>
+    <path id="nunito-bold-o" d="M288 -10 Q212 -10 156 21 Q100 52 69 110 Q38 167 38 245 Q38 304 56 350 Q73 397 106 430
+        Q139 464 185 482 Q231 499 288 499 Q364 499 420 468 Q476 437 507 380 Q538 323 538 245
+        Q538 186 520 139 Q503 92 470 58 Q437 25 391 8 Q345 -10 288 -10 Z M288 85 Q325 85 353 103
+        Q381 121 396 156 Q412 192 412 245 Q412 325 378 364 Q344 404 288 404 Q251 404 223 386
+        Q195 369 180 334 Q164 298 164 245 Q164 166 198 126 Q232 85 288 85 Z"/>
+    <path id="nunito-bold-n" d="M127 -8 Q97 -8 81 8 Q65 25 65 56 V434 Q65 465 81 481 Q97 497 126 497 Q155 497 171 481
+        Q187 465 187 434 V366 L176 391 Q198 444 244 472 Q291 499 350 499 Q409 499 447 477
+        Q485 455 504 410 Q523 366 523 298 V56 Q523 25 507 8 Q491 -8 461 -8 Q431 -8 414 8 Q398 25 398 56
+        V292 Q398 349 376 375 Q355 401 310 401 Q255 401 222 366 Q190 332 190 275 V56 Q190 -8 127 -8 Z"/>
+    <path id="nunito-bold-t" d="M289 -10 Q224 -10 180 12 Q137 34 116 76 Q95 119 95 182 V395 H43 Q19 395 6 408 Q-7 420 -7 442
+        Q-7 465 6 477 Q19 489 43 489 H95 V580 Q95 611 112 627 Q128 643 158 643 Q188 643 204 627
+        Q220 611 220 580 V489 H326 Q350 489 363 477 Q376 465 376 442 Q376 420 363 408 Q350 395 326 395
+        H220 V189 Q220 141 241 117 Q262 93 309 93 Q326 93 339 96 Q352 99 362 100 Q374 101 382 92
+        Q390 84 390 58 Q390 38 384 22 Q377 7 360 1 Q347 -3 326 -6 Q305 -10 289 -10 Z"/>
+    <path id="nunito-bold-r" d="M129 -8 Q98 -8 82 8 Q65 25 65 56 V434 Q65 465 81 481 Q97 497 126 497 Q155 497 171 481
+        Q187 465 187 434 V371 H177 Q191 431 232 462 Q273 493 341 499 Q362 501 374 488 Q387 476 389 450
+        Q391 425 378 410 Q364 394 337 391 L315 389 Q254 383 223 352 Q192 320 192 263 V56 Q192 25 176 8
+        Q160 -8 129 -8 Z"/>
+    <path id="nunito-bold-i" d="M127 -7 Q97 -7 81 11 Q65 29 65 61 V428 Q65 461 81 478 Q97 496 127 496 Q157 496 174 478
+        Q190 461 190 428 V61 Q190 29 174 11 Q158 -7 127 -7 Z M127 589 Q92 589 72 606 Q53 624 53 655
+        Q53 687 72 704 Q92 721 127 721 Q163 721 182 704 Q201 687 201 655 Q201 624 182 606
+        Q163 589 127 589 Z"/>
+    <path id="nunito-bold-b" d="M347 -10 Q285 -10 238 21 Q192 52 177 104 L188 129 V56 Q188 25 172 8 Q156 -8 127 -8 Q97 -8 81 8
+        Q65 25 65 56 V650 Q65 681 81 697 Q97 713 127 713 Q157 713 174 697 Q190 681 190 650 V390 H178
+        Q194 439 240 469 Q286 499 347 499 Q412 499 460 468 Q508 437 535 380 Q562 324 562 245
+        Q562 167 535 110 Q508 52 460 21 Q411 -10 347 -10 Z M312 85 Q349 85 377 103 Q405 121 420 156
+        Q436 192 436 245 Q436 325 402 364 Q368 404 312 404 Q275 404 247 386 Q219 369 204 334
+        Q188 298 188 245 Q188 166 222 126 Q256 85 312 85 Z"/>
+    <path id="nunito-bold-u" d="M242 -10 Q181 -10 141 12 Q101 35 82 80 Q62 125 62 192 V434 Q62 466 78 482 Q94 497 124 497
+        Q154 497 170 482 Q187 466 187 434 V190 Q187 138 208 113 Q229 88 275 88 Q325 88 357 122
+        Q389 157 389 214 V434 Q389 466 405 482 Q421 497 451 497 Q481 497 498 482 Q514 466 514 434 V56
+        Q514 -8 453 -8 Q424 -8 408 8 Q392 25 392 56 V132 L406 102 Q385 48 342 19 Q300 -10 242 -10 Z"/>
+    <path id="nunito-bold-a" d="M226 -10 Q173 -10 132 10 Q90 31 66 66 Q43 101 43 145 Q43 199 71 230 Q99 262 162 276
+        Q225 290 331 290 H381 V218 H332 Q270 218 233 212 Q196 206 180 192 Q165 177 165 151
+        Q165 118 188 97 Q211 76 252 76 Q285 76 310 92 Q336 107 351 134 Q366 161 366 196 V311
+        Q366 361 344 383 Q322 405 270 405 Q241 405 208 398 Q174 391 137 374 Q118 365 104 369
+        Q89 373 81 386 Q73 398 73 413 Q73 428 81 442 Q89 457 108 464 Q154 483 196 491 Q239 499 274 499
+        Q346 499 392 477 Q439 455 462 410 Q485 366 485 296 V56 Q485 25 470 8 Q455 -8 427 -8
+        Q399 -8 384 8 Q368 25 368 56 V104 H376 Q369 69 348 44 Q328 18 297 4 Q266 -10 226 -10 Z"/>
+    <path id="nunito-bold-c" d="M291 -10 Q214 -10 157 22 Q100 53 69 111 Q38 169 38 247 Q38 306 56 352 Q73 399 106 432
+        Q139 464 186 482 Q233 499 291 499 Q324 499 362 490 Q401 481 435 460 Q451 450 456 436
+        Q461 422 458 408 Q455 393 446 382 Q436 372 422 370 Q408 367 391 376 Q369 389 346 396
+        Q323 402 302 402 Q269 402 244 392 Q219 381 202 362 Q184 342 175 313 Q166 284 166 246
+        Q166 172 202 130 Q237 87 302 87 Q323 87 346 93 Q368 99 391 112 Q408 121 422 118 Q435 115 444 104
+        Q453 94 455 80 Q457 65 452 51 Q446 37 431 28 Q398 8 361 -1 Q324 -10 291 -10 Z"/>
+    <path id="nunito-bold-v" d="M263 -8 Q238 -8 220 5 Q201 18 189 45 L30 414 Q21 436 24 455 Q26 474 42 486 Q57 497 84 497
+        Q107 497 121 486 Q135 476 146 447 L281 110 H251 L390 448 Q401 476 416 486 Q430 497 455 497
+        Q477 497 490 486 Q503 474 506 456 Q509 437 499 415 L337 45 Q326 18 308 5 Q289 -8 263 -8 Z"/>
+    <path id="nunito-bold-y" d="M189 -188 Q167 -188 153 -176 Q139 -165 136 -146 Q134 -127 143 -106 L211 45 V-7 L29 414
+        Q20 436 23 455 Q26 474 42 486 Q57 497 84 497 Q107 497 121 486 Q135 476 146 447 L281 110 H251
+        L389 448 Q400 476 415 486 Q430 497 455 497 Q477 497 490 486 Q503 474 506 456 Q509 437 499 415
+        L256 -140 Q243 -168 228 -178 Q213 -188 189 -188 Z"/>
+    <path id="nunito-c" d="M282 -9 Q209 -9 156 23 Q103 55 74 112 Q46 170 46 246 Q46 304 62 350 Q78 396 109 428
+        Q140 461 184 478 Q227 495 282 495 Q318 495 357 484 Q396 473 428 446 Q438 439 441 429
+        Q444 419 441 410 Q438 400 431 394 Q424 387 414 386 Q403 385 392 393 Q366 413 339 421
+        Q312 429 287 429 Q248 429 219 416 Q190 404 170 381 Q150 358 140 324 Q129 290 129 245
+        Q129 158 170 108 Q211 57 287 57 Q312 57 338 65 Q365 73 392 93 Q403 101 413 100 Q423 99 430 92
+        Q437 86 440 76 Q442 66 439 56 Q436 47 426 40 Q394 14 356 2 Q318 -9 282 -9 Z"/>
+    <path id="nunito-o" d="M278 -9 Q207 -9 155 22 Q103 53 74 110 Q46 166 46 243 Q46 301 62 348 Q78 394 109 427
+        Q140 460 182 478 Q225 495 278 495 Q349 495 401 464 Q453 433 482 376 Q510 320 510 243
+        Q510 185 494 139 Q478 93 447 60 Q416 26 374 8 Q331 -9 278 -9 Z M278 56 Q323 56 357 78
+        Q391 100 410 142 Q428 184 428 243 Q428 334 388 382 Q347 430 278 430 Q232 430 198 408
+        Q165 387 146 346 Q128 304 128 243 Q128 153 169 104 Q210 56 278 56 Z"/>
+    <path id="nunito-n" d="M116 -7 Q96 -7 86 4 Q76 15 76 35 V452 Q76 472 86 482 Q96 493 115 493 Q134 493 144 482
+        Q155 472 155 452 V366 L144 378 Q165 436 212 466 Q260 495 322 495 Q380 495 418 474
+        Q457 453 476 410 Q495 368 495 303 V35 Q495 15 484 4 Q474 -7 455 -7 Q435 -7 424 4 Q414 15 414 35
+        V298 Q414 366 388 398 Q361 429 303 429 Q236 429 196 388 Q157 346 157 277 V35 Q157 -7 116 -7 Z"/>
+    <path id="nunito-t" d="M271 -9 Q214 -9 176 12 Q137 32 118 72 Q99 111 99 168 V423 H32 Q15 423 6 432 Q-3 440 -3 455
+        Q-3 470 6 478 Q15 486 32 486 H99 V601 Q99 621 110 632 Q121 642 140 642 Q159 642 170 632
+        Q180 621 180 601 V486 H306 Q323 486 332 478 Q341 470 341 455 Q341 440 332 432 Q323 423 306 423
+        H180 V176 Q180 119 204 90 Q228 60 282 60 Q301 60 314 64 Q328 68 337 68 Q346 69 352 62
+        Q358 55 358 38 Q358 26 354 16 Q349 6 338 2 Q326 -2 306 -6 Q287 -9 271 -9 Z"/>
+    <path id="nunito-r" d="M117 -7 Q97 -7 86 4 Q76 15 76 35 V452 Q76 472 86 482 Q96 493 115 493 Q134 493 144 482
+        Q155 472 155 452 V371 H145 Q161 430 206 462 Q251 494 317 496 Q332 497 341 490 Q350 482 351 464
+        Q352 447 343 437 Q334 427 315 425 L299 423 Q231 417 194 380 Q158 342 158 277 V35 Q158 15 148 4
+        Q137 -7 117 -7 Z"/>
+    <path id="nunito-i" d="M116 -5 Q96 -5 86 6 Q76 18 76 39 V448 Q76 469 86 480 Q96 491 116 491 Q135 491 146 480
+        Q157 469 157 448 V39 Q157 18 146 6 Q136 -5 116 -5 Z M116 603 Q91 603 77 616 Q63 630 63 653
+        Q63 677 77 690 Q91 702 116 702 Q142 702 156 690 Q169 677 169 653 Q169 630 156 616
+        Q142 603 116 603 Z"/>
+    <path id="nunito-b" d="M322 -9 Q256 -9 208 25 Q161 59 145 116 L156 127 V35 Q156 15 146 4 Q135 -7 116 -7 Q96 -7 86 4
+        Q76 15 76 35 V671 Q76 691 86 702 Q96 712 116 712 Q135 712 146 702 Q157 691 157 671 V373 H145
+        Q162 429 209 462 Q256 495 322 495 Q388 495 436 464 Q484 434 510 378 Q537 321 537 243
+        Q537 166 510 110 Q484 53 436 22 Q387 -9 322 -9 Z M305 56 Q351 56 384 78 Q418 100 436 142
+        Q455 184 455 243 Q455 334 414 382 Q374 430 305 430 Q260 430 226 408 Q192 387 174 346
+        Q155 304 155 243 Q155 153 196 104 Q237 56 305 56 Z"/>
+    <path id="nunito-u" d="M248 -9 Q189 -9 150 12 Q112 34 92 77 Q73 120 73 184 V452 Q73 473 84 483 Q94 493 113 493
+        Q133 493 144 483 Q154 473 154 452 V185 Q154 121 180 90 Q207 58 264 58 Q326 58 365 100
+        Q404 142 404 210 V452 Q404 473 414 483 Q425 493 445 493 Q464 493 474 483 Q485 473 485 452 V35
+        Q485 -7 446 -7 Q427 -7 416 4 Q406 15 406 35 V126 L419 112 Q399 53 354 22 Q308 -9 248 -9 Z"/>
+    <path id="nunito-s" d="M240 -9 Q195 -9 150 2 Q104 13 65 40 Q55 47 51 56 Q47 66 48 76 Q50 85 56 92 Q63 99 72 100
+        Q82 102 94 96 Q133 72 170 62 Q206 53 242 53 Q299 53 328 74 Q357 95 357 131 Q357 159 338 176
+        Q319 192 278 201 L187 221 Q124 234 94 266 Q63 298 63 349 Q63 394 86 426 Q110 459 153 477
+        Q196 495 253 495 Q297 495 336 484 Q376 472 408 447 Q418 440 422 430 Q425 421 422 412
+        Q420 402 413 396 Q406 389 396 388 Q386 387 375 394 Q345 414 314 424 Q283 433 253 433
+        Q197 433 168 411 Q139 389 139 353 Q139 325 157 307 Q175 289 213 281 L304 262 Q369 248 402 218
+        Q434 187 434 135 Q434 69 381 30 Q328 -9 240 -9 Z"/>
+    <path id="nunito-p" d="M116 -187 Q96 -187 86 -176 Q76 -166 76 -146 V452 Q76 472 86 482 Q96 493 115 493 Q135 493 146 482
+        Q156 472 156 452 V357 L145 371 Q161 428 208 462 Q256 495 322 495 Q387 495 436 464
+        Q484 434 510 378 Q537 321 537 243 Q537 166 510 110 Q484 53 436 22 Q388 -9 322 -9 Q256 -9 209 24
+        Q162 58 145 114 H157 V-146 Q157 -166 146 -176 Q135 -187 116 -187 Z M305 56 Q351 56 384 78
+        Q418 100 436 142 Q455 184 455 243 Q455 334 414 382 Q374 430 305 430 Q260 430 226 408
+        Q192 387 174 346 Q155 304 155 243 Q155 153 196 104 Q237 56 305 56 Z"/>
+    <path id="nunito-e" d="M295 -9 Q218 -9 162 22 Q107 52 76 108 Q46 164 46 242 Q46 318 76 374 Q106 431 158 463
+        Q211 495 280 495 Q329 495 368 478 Q407 462 434 431 Q462 400 476 356 Q491 312 491 257
+        Q491 241 482 234 Q473 226 456 226 H108 V279 H437 L421 266 Q421 320 405 358 Q389 395 358 415
+        Q328 435 282 435 Q231 435 196 412 Q160 388 142 346 Q124 305 124 250 V244 Q124 152 168 104
+        Q213 56 295 56 Q329 56 362 65 Q396 74 428 95 Q442 104 454 104 Q465 103 472 96 Q479 90 482 80
+        Q484 71 480 60 Q475 49 462 41 Q429 17 384 4 Q339 -9 295 -9 Z"/>
+    <path id="nunito-w" d="M244 -7 Q227 -7 214 2 Q201 11 193 31 L44 436 Q38 453 40 466 Q43 479 53 486 Q63 493 78 493
+        Q93 493 102 486 Q112 479 118 460 L258 60 H234 L378 460 Q385 478 396 486 Q406 493 423 493
+        Q439 493 450 485 Q461 477 467 460 L608 60 H585 L727 462 Q734 480 744 486 Q754 493 768 493
+        Q784 493 792 485 Q801 477 802 464 Q803 451 797 436 L648 31 Q641 12 628 2 Q614 -7 597 -7
+        Q580 -7 567 2 Q554 12 547 31 L399 437 H442 L295 31 Q288 12 275 2 Q262 -7 244 -7 Z"/>
+    <path id="nunito-k" d="M116 -7 Q96 -7 86 4 Q76 15 76 35 V671 Q76 691 86 702 Q96 712 116 712 Q135 712 146 702
+        Q157 691 157 671 V270 H159 L364 466 Q378 479 388 486 Q399 493 417 493 Q433 493 442 484
+        Q451 476 450 464 Q450 451 438 437 L220 230 V274 L457 51 Q471 37 471 24 Q471 11 462 2
+        Q452 -7 437 -7 Q419 -7 408 0 Q397 8 381 23 L159 228 H157 V35 Q157 -7 116 -7 Z"/>
+    <path id="nunito-0" d="M300 -9 Q179 -9 116 84 Q53 177 53 353 Q53 471 81 552 Q109 632 164 673 Q220 714 300 714
+        Q422 714 484 622 Q547 531 547 354 Q547 236 519 155 Q491 74 436 32 Q381 -9 300 -9 Z M300 62
+        Q384 62 424 134 Q465 205 465 354 Q465 504 424 574 Q384 643 300 643 Q217 643 176 573
+        Q135 503 135 354 Q135 205 176 134 Q217 62 300 62 Z"/>
+    <path id="nunito-1" d="M155 0 Q137 0 127 10 Q117 19 117 36 Q117 53 127 62 Q137 70 155 70 H285 V637 H328 L183 541
+        Q170 534 158 535 Q147 536 140 544 Q132 551 129 562 Q126 572 130 584 Q134 595 147 603 L285 694
+        Q298 702 310 707 Q322 712 334 712 Q348 712 358 704 Q367 695 367 677 V70 H487 Q505 70 515 62
+        Q525 53 525 36 Q525 18 515 9 Q505 0 487 0 Z"/>
+    <path id="nunito-2" d="M129 0 Q107 0 96 10 Q86 21 86 39 Q86 50 92 60 Q97 71 107 82 L331 322 Q382 377 404 424
+        Q427 470 427 518 Q427 578 390 610 Q354 641 284 641 Q239 641 199 627 Q159 613 122 584
+        Q109 574 98 575 Q88 576 80 583 Q72 590 69 601 Q66 612 70 623 Q73 634 85 643 Q124 675 179 694
+        Q234 714 291 714 Q362 714 411 692 Q460 670 485 628 Q510 585 510 524 Q510 482 496 442
+        Q483 401 456 359 Q428 317 384 272 L171 47 V70 H508 Q527 70 536 62 Q546 53 546 36 Q546 18 536 9
+        Q527 0 508 0 Z"/>
+    <path id="nunito-3" d="M292 -9 Q234 -9 176 8 Q117 25 74 58 Q61 67 57 78 Q53 90 56 100 Q58 111 66 118 Q74 126 86 127
+        Q97 128 111 119 Q155 90 199 77 Q243 64 290 64 Q341 64 376 79 Q411 94 429 124 Q447 153 447 196
+        Q447 258 406 290 Q365 322 287 322 H216 Q197 322 187 332 Q177 341 177 358 Q177 374 187 384
+        Q197 393 216 393 H280 Q326 393 358 409 Q391 425 409 454 Q427 484 427 526 Q427 582 391 612
+        Q355 641 287 641 Q242 641 202 628 Q162 615 123 584 Q111 575 100 576 Q88 576 80 582
+        Q73 589 70 600 Q66 611 70 622 Q74 634 87 644 Q127 678 181 696 Q235 714 292 714 Q360 714 408 692
+        Q457 671 483 630 Q509 590 509 533 Q509 490 492 454 Q476 419 446 394 Q417 369 375 358 V369
+        Q448 357 488 310 Q529 262 529 190 Q529 129 500 84 Q472 40 419 16 Q366 -9 292 -9 Z"/>
+    <path id="nunito-4" d="M418 -7 Q399 -7 388 4 Q377 15 377 35 V151 H90 Q70 151 58 160 Q47 170 47 188 Q47 199 52 210
+        Q57 222 70 240 L375 684 Q384 698 395 705 Q406 712 421 712 Q437 712 448 702 Q460 692 460 670 V221
+        H533 Q552 221 562 212 Q572 203 572 186 Q572 169 562 160 Q552 151 533 151 H460 V35 Q460 15 449 4
+        Q438 -7 418 -7 Z M377 221 V609 H401 L121 199 V221 Z"/>
+    <path id="nunito-5" d="M315 -9 Q258 -9 202 8 Q145 25 99 61 Q87 69 83 80 Q79 91 82 102 Q85 113 93 120 Q101 128 112 129
+        Q124 130 137 121 Q178 92 222 78 Q266 64 314 64 Q363 64 398 82 Q434 101 452 134 Q471 168 471 213
+        Q471 282 431 326 Q391 370 321 370 Q278 370 242 354 Q206 338 176 303 Q169 295 160 290
+        Q150 284 138 284 Q121 284 112 294 Q102 303 102 319 V667 Q102 686 112 696 Q122 705 140 705 H480
+        Q499 705 508 696 Q518 687 518 670 Q518 653 508 644 Q499 635 480 635 H183 V354 H161
+        Q187 396 233 418 Q279 441 336 441 Q403 441 452 413 Q500 385 526 334 Q553 284 553 217
+        Q553 151 524 100 Q495 49 442 20 Q389 -9 315 -9 Z"/>
+    <path id="nunito-O" d="M383 -9 Q285 -9 212 36 Q140 80 100 161 Q61 242 61 353 Q61 437 84 504 Q106 570 148 616
+        Q190 663 250 688 Q309 714 383 714 Q483 714 556 670 Q628 626 668 546 Q707 465 707 354
+        Q707 270 684 203 Q661 136 619 89 Q577 42 518 16 Q458 -9 383 -9 Z M383 64 Q459 64 512 98
+        Q564 132 592 197 Q620 262 620 353 Q620 490 558 566 Q497 641 383 641 Q309 641 256 607
+        Q204 573 176 508 Q148 444 148 353 Q148 217 210 140 Q272 64 383 64 Z"/>
+    <path id="nunito-D" d="M132 0 Q110 0 98 12 Q87 23 87 45 V660 Q87 682 98 694 Q110 705 132 705 H325 Q496 705 589 615
+        Q682 525 682 353 Q682 267 658 202 Q635 136 589 91 Q543 46 477 23 Q411 0 325 0 Z M169 70 H319
+        Q389 70 440 88 Q492 106 526 141 Q561 176 578 230 Q595 283 595 353 Q595 494 526 564
+        Q457 635 319 635 H169 Z"/>
+    <path id="nunito-J" d="M28 -6 Q9 -7 -2 4 Q-12 15 -12 31 Q-12 43 -4 53 Q3 63 19 64 L50 66 Q101 70 128 102
+        Q155 133 155 188 V670 Q155 691 166 702 Q176 712 196 712 Q216 712 226 702 Q237 691 237 670 V187
+        Q237 130 217 88 Q197 47 158 24 Q118 1 61 -3 Z"/>
+    <path id="nunito-a" d="M229 -9 Q179 -9 140 10 Q100 30 77 64 Q54 98 54 140 Q54 194 82 225 Q109 256 172 269
+        Q236 282 346 282 H391 V229 H347 Q266 229 220 222 Q173 214 154 196 Q136 178 136 145
+        Q136 104 164 78 Q193 52 242 52 Q282 52 312 71 Q343 90 360 123 Q378 156 378 199 V313
+        Q378 375 353 402 Q328 430 271 430 Q236 430 201 421 Q166 412 127 392 Q113 385 103 388
+        Q93 390 87 398 Q81 406 80 416 Q79 427 84 437 Q90 447 102 453 Q146 475 189 485 Q232 495 271 495
+        Q334 495 375 474 Q416 454 436 412 Q456 371 456 306 V35 Q456 15 446 4 Q437 -7 419 -7
+        Q400 -7 390 4 Q380 15 380 35 V113 H389 Q381 75 358 48 Q336 21 303 6 Q270 -9 229 -9 Z"/>
+    <path id="nunito-F" d="M131 -7 Q110 -7 98 4 Q87 16 87 38 V660 Q87 682 98 694 Q110 705 132 705 H495 Q512 705 521 696
+        Q530 687 530 671 Q530 654 521 645 Q512 636 495 636 H169 V390 H474 Q491 390 500 381
+        Q510 372 510 356 Q510 339 500 330 Q491 321 474 321 H169 V38 Q169 -7 131 -7 Z"/>
+    <path id="nunito-M" d="M127 -7 Q109 -7 99 4 Q89 14 89 33 V672 Q89 692 99 702 Q109 712 127 712 Q143 712 152 706
+        Q162 699 170 684 L444 168 H414 L687 684 Q695 699 704 706 Q713 712 730 712 Q747 712 757 702
+        Q767 692 767 672 V33 Q767 14 758 4 Q748 -7 729 -7 Q711 -7 701 4 Q691 14 691 33 V595 H715
+        L465 126 Q458 113 450 108 Q443 102 429 102 Q415 102 407 108 Q399 114 393 126 L140 596 H164 V33
+        Q164 14 154 4 Q145 -7 127 -7 Z"/>
+    <path id="nunito-A" d="M72 -7 Q56 -7 46 0 Q37 8 36 20 Q34 33 41 49 L316 675 Q325 695 338 704 Q350 712 365 712
+        Q380 712 392 704 Q405 695 413 675 L689 49 Q697 33 696 20 Q694 7 685 0 Q676 -7 660 -7
+        Q642 -7 631 2 Q620 12 613 30 L539 201 L579 180 H149 L190 201 L117 30 Q108 11 98 2 Q88 -7 72 -7 Z
+        M364 609 203 230 179 249 H549 L527 230 L366 609 Z"/>
+    <path id="nunito-y" d="M184 -187 Q169 -187 160 -179 Q151 -171 150 -158 Q148 -144 154 -130 L223 25 V-10 L31 436
+        Q25 451 27 464 Q29 477 39 485 Q49 493 67 493 Q83 493 92 486 Q101 479 108 461 L272 59 H245
+        L411 461 Q419 479 428 486 Q437 493 454 493 Q470 493 478 485 Q487 477 488 464 Q490 452 484 437
+        L228 -155 Q220 -173 210 -180 Q201 -187 184 -187 Z"/>
+    <path id="nunito-l" d="M224 -9 Q152 -9 114 35 Q76 79 76 161 V671 Q76 691 86 702 Q96 712 116 712 Q135 712 146 702
+        Q157 691 157 671 V167 Q157 113 178 86 Q200 60 242 60 Q251 60 258 61 Q265 62 272 62
+        Q283 63 288 57 Q292 51 292 33 Q292 15 284 6 Q276 -3 258 -6 Q250 -7 241 -8 Q232 -9 224 -9 Z"/>
+    <path id="nunito-g" d="M291 -189 Q238 -189 188 -176 Q137 -164 96 -137 Q84 -130 80 -120 Q77 -110 79 -100 Q81 -91 88 -84
+        Q95 -76 104 -74 Q114 -72 124 -77 Q168 -104 208 -114 Q248 -124 287 -124 Q358 -124 394 -86
+        Q431 -48 431 24 V137 H441 Q426 79 378 45 Q329 11 264 11 Q197 11 148 42 Q99 72 72 127
+        Q46 182 46 254 Q46 308 61 352 Q76 397 104 428 Q133 460 174 478 Q214 495 264 495 Q330 495 378 462
+        Q426 428 440 371 L430 359 V452 Q430 472 440 482 Q451 493 470 493 Q490 493 500 482
+        Q510 472 510 452 V35 Q510 -76 454 -132 Q399 -189 291 -189 Z M279 77 Q326 77 360 98
+        Q394 120 412 160 Q431 200 431 254 Q431 335 390 382 Q349 430 279 430 Q233 430 199 408
+        Q165 387 146 348 Q128 308 128 254 Q128 173 169 125 Q210 77 279 77 Z"/>
+    <path id="nunito-S" d="M315 -9 Q268 -9 223 -1 Q178 7 140 22 Q101 37 70 60 Q58 69 54 80 Q49 92 52 104 Q54 115 62 123
+        Q69 131 80 132 Q91 133 104 125 Q149 93 200 78 Q251 64 315 64 Q405 64 448 98 Q492 131 492 186
+        Q492 231 460 256 Q429 282 355 297 L251 318 Q157 338 110 384 Q64 429 64 505 Q64 552 83 590
+        Q102 629 136 656 Q170 684 217 699 Q264 714 321 714 Q384 714 438 696 Q493 679 537 644
+        Q548 635 552 624 Q556 612 553 602 Q550 591 542 584 Q535 577 524 576 Q512 575 498 584
+        Q458 614 415 628 Q372 641 320 641 Q267 641 228 625 Q190 609 168 578 Q147 548 147 508
+        Q147 460 176 432 Q206 404 273 391 L377 369 Q478 348 526 306 Q575 263 575 190 Q575 146 557 109
+        Q539 72 505 46 Q471 19 423 5 Q375 -9 315 -9 Z"/>
+  </defs>
+  <!-- Panel background and border -->
+  <rect width="1000" height="300" rx="20" fill="#2d2f33"/>
+  <rect x=".5" y=".5" width="999" height="299" rx="19.5" fill="none" stroke="#585b61"/>
+  <!-- text: Contribution activity -->
+  <g aria-label="Contribution activity">
+    <use href="#nunito-bold-C" transform="translate(32.00 46.00) scale(0.02000 -0.02000)" fill="#eeeff0"/>
+    <use href="#nunito-bold-o" transform="translate(45.60 46.00) scale(0.02000 -0.02000)" fill="#eeeff0"/>
+    <use href="#nunito-bold-n" transform="translate(57.12 46.00) scale(0.02000 -0.02000)" fill="#eeeff0"/>
+    <use href="#nunito-bold-t" transform="translate(68.82 46.00) scale(0.02000 -0.02000)" fill="#eeeff0"/>
+    <use href="#nunito-bold-r" transform="translate(76.50 46.00) scale(0.02000 -0.02000)" fill="#eeeff0"/>
+    <use href="#nunito-bold-i" transform="translate(84.34 46.00) scale(0.02000 -0.02000)" fill="#eeeff0"/>
+    <use href="#nunito-bold-b" transform="translate(89.44 46.00) scale(0.02000 -0.02000)" fill="#eeeff0"/>
+    <use href="#nunito-bold-u" transform="translate(101.44 46.00) scale(0.02000 -0.02000)" fill="#eeeff0"/>
+    <use href="#nunito-bold-t" transform="translate(113.02 46.00) scale(0.02000 -0.02000)" fill="#eeeff0"/>
+    <use href="#nunito-bold-i" transform="translate(120.70 46.00) scale(0.02000 -0.02000)" fill="#eeeff0"/>
+    <use href="#nunito-bold-o" transform="translate(125.80 46.00) scale(0.02000 -0.02000)" fill="#eeeff0"/>
+    <use href="#nunito-bold-n" transform="translate(137.32 46.00) scale(0.02000 -0.02000)" fill="#eeeff0"/>
+    <use href="#nunito-bold-a" transform="translate(154.44 46.00) scale(0.02000 -0.02000)" fill="#eeeff0"/>
+    <use href="#nunito-bold-c" transform="translate(165.38 46.00) scale(0.02000 -0.02000)" fill="#eeeff0"/>
+    <use href="#nunito-bold-t" transform="translate(174.82 46.00) scale(0.02000 -0.02000)" fill="#eeeff0"/>
+    <use href="#nunito-bold-i" transform="translate(182.50 46.00) scale(0.02000 -0.02000)" fill="#eeeff0"/>
+    <use href="#nunito-bold-v" transform="translate(187.60 46.00) scale(0.02000 -0.02000)" fill="#eeeff0"/>
+    <use href="#nunito-bold-i" transform="translate(198.14 46.00) scale(0.02000 -0.02000)" fill="#eeeff0"/>
+    <use href="#nunito-bold-t" transform="translate(203.24 46.00) scale(0.02000 -0.02000)" fill="#eeeff0"/>
+    <use href="#nunito-bold-y" transform="translate(210.92 46.00) scale(0.02000 -0.02000)" fill="#eeeff0"/>
+  </g>
+  <!-- text: contributions per week -->
+  <g aria-label="contributions per week">
+    <use href="#nunito-c" transform="translate(834.72 46.00) scale(0.01300 -0.01300)" fill="#a3a5aa"/>
+    <use href="#nunito-o" transform="translate(840.74 46.00) scale(0.01300 -0.01300)" fill="#a3a5aa"/>
+    <use href="#nunito-n" transform="translate(847.97 46.00) scale(0.01300 -0.01300)" fill="#a3a5aa"/>
+    <use href="#nunito-t" transform="translate(855.36 46.00) scale(0.01300 -0.01300)" fill="#a3a5aa"/>
+    <use href="#nunito-r" transform="translate(859.90 46.00) scale(0.01300 -0.01300)" fill="#a3a5aa"/>
+    <use href="#nunito-i" transform="translate(864.56 46.00) scale(0.01300 -0.01300)" fill="#a3a5aa"/>
+    <use href="#nunito-b" transform="translate(867.57 46.00) scale(0.01300 -0.01300)" fill="#a3a5aa"/>
+    <use href="#nunito-u" transform="translate(875.15 46.00) scale(0.01300 -0.01300)" fill="#a3a5aa"/>
+    <use href="#nunito-t" transform="translate(882.45 46.00) scale(0.01300 -0.01300)" fill="#a3a5aa"/>
+    <use href="#nunito-i" transform="translate(887.00 46.00) scale(0.01300 -0.01300)" fill="#a3a5aa"/>
+    <use href="#nunito-o" transform="translate(890.01 46.00) scale(0.01300 -0.01300)" fill="#a3a5aa"/>
+    <use href="#nunito-n" transform="translate(897.24 46.00) scale(0.01300 -0.01300)" fill="#a3a5aa"/>
+    <use href="#nunito-s" transform="translate(904.62 46.00) scale(0.01300 -0.01300)" fill="#a3a5aa"/>
+    <use href="#nunito-p" transform="translate(914.23 46.00) scale(0.01300 -0.01300)" fill="#a3a5aa"/>
+    <use href="#nunito-e" transform="translate(921.81 46.00) scale(0.01300 -0.01300)" fill="#a3a5aa"/>
+    <use href="#nunito-r" transform="translate(928.73 46.00) scale(0.01300 -0.01300)" fill="#a3a5aa"/>
+    <use href="#nunito-w" transform="translate(936.73 46.00) scale(0.01300 -0.01300)" fill="#a3a5aa"/>
+    <use href="#nunito-e" transform="translate(947.67 46.00) scale(0.01300 -0.01300)" fill="#a3a5aa"/>
+    <use href="#nunito-e" transform="translate(954.58 46.00) scale(0.01300 -0.01300)" fill="#a3a5aa"/>
+    <use href="#nunito-k" transform="translate(961.50 46.00) scale(0.01300 -0.01300)" fill="#a3a5aa"/>
+  </g>
+  <!-- Horizontal grid lines and value labels -->
+  <path d="M70 248.0 H960" stroke="#585b61" stroke-width="1" stroke-dasharray="2 5" opacity=".7"/>
+  <!-- text: 0 -->
+  <g aria-label="0">
+    <use href="#nunito-0" transform="translate(51.40 252.00) scale(0.01100 -0.01100)" fill="#a3a5aa"/>
+  </g>
+  <path d="M70 215.2 H960" stroke="#585b61" stroke-width="1" stroke-dasharray="2 5" opacity=".7"/>
+  <!-- text: 10 -->
+  <g aria-label="10">
+    <use href="#nunito-1" transform="translate(44.80 219.20) scale(0.01100 -0.01100)" fill="#a3a5aa"/>
+    <use href="#nunito-0" transform="translate(51.40 219.20) scale(0.01100 -0.01100)" fill="#a3a5aa"/>
+  </g>
+  <path d="M70 182.4 H960" stroke="#585b61" stroke-width="1" stroke-dasharray="2 5" opacity=".7"/>
+  <!-- text: 20 -->
+  <g aria-label="20">
+    <use href="#nunito-2" transform="translate(44.80 186.40) scale(0.01100 -0.01100)" fill="#a3a5aa"/>
+    <use href="#nunito-0" transform="translate(51.40 186.40) scale(0.01100 -0.01100)" fill="#a3a5aa"/>
+  </g>
+  <path d="M70 149.6 H960" stroke="#585b61" stroke-width="1" stroke-dasharray="2 5" opacity=".7"/>
+  <!-- text: 30 -->
+  <g aria-label="30">
+    <use href="#nunito-3" transform="translate(44.80 153.60) scale(0.01100 -0.01100)" fill="#a3a5aa"/>
+    <use href="#nunito-0" transform="translate(51.40 153.60) scale(0.01100 -0.01100)" fill="#a3a5aa"/>
+  </g>
+  <path d="M70 116.8 H960" stroke="#585b61" stroke-width="1" stroke-dasharray="2 5" opacity=".7"/>
+  <!-- text: 40 -->
+  <g aria-label="40">
+    <use href="#nunito-4" transform="translate(44.80 120.80) scale(0.01100 -0.01100)" fill="#a3a5aa"/>
+    <use href="#nunito-0" transform="translate(51.40 120.80) scale(0.01100 -0.01100)" fill="#a3a5aa"/>
+  </g>
+  <path d="M70 84.0 H960" stroke="#585b61" stroke-width="1" stroke-dasharray="2 5" opacity=".7"/>
+  <!-- text: 50 -->
+  <g aria-label="50">
+    <use href="#nunito-5" transform="translate(44.80 88.00) scale(0.01100 -0.01100)" fill="#a3a5aa"/>
+    <use href="#nunito-0" transform="translate(51.40 88.00) scale(0.01100 -0.01100)" fill="#a3a5aa"/>
+  </g>
+  <!-- Month labels -->
+  <!-- text: Oct -->
+  <g aria-label="Oct">
+    <use href="#nunito-O" transform="translate(60.52 274.00) scale(0.01200 -0.01200)" fill="#a3a5aa"/>
+    <use href="#nunito-c" transform="translate(69.72 274.00) scale(0.01200 -0.01200)" fill="#a3a5aa"/>
+    <use href="#nunito-t" transform="translate(75.28 274.00) scale(0.01200 -0.01200)" fill="#a3a5aa"/>
+  </g>
+  <!-- text: Dec -->
+  <g aria-label="Dec">
+    <use href="#nunito-D" transform="translate(179.39 274.00) scale(0.01200 -0.01200)" fill="#a3a5aa"/>
+    <use href="#nunito-e" transform="translate(188.29 274.00) scale(0.01200 -0.01200)" fill="#a3a5aa"/>
+    <use href="#nunito-c" transform="translate(194.67 274.00) scale(0.01200 -0.01200)" fill="#a3a5aa"/>
+  </g>
+  <!-- text: Jan -->
+  <g aria-label="Jan">
+    <use href="#nunito-J" transform="translate(249.74 274.00) scale(0.01200 -0.01200)" fill="#a3a5aa"/>
+    <use href="#nunito-a" transform="translate(253.63 274.00) scale(0.01200 -0.01200)" fill="#a3a5aa"/>
+    <use href="#nunito-n" transform="translate(259.99 274.00) scale(0.01200 -0.01200)" fill="#a3a5aa"/>
+  </g>
+  <!-- text: Feb -->
+  <g aria-label="Feb">
+    <use href="#nunito-F" transform="translate(316.75 274.00) scale(0.01200 -0.01200)" fill="#a3a5aa"/>
+    <use href="#nunito-e" transform="translate(323.33 274.00) scale(0.01200 -0.01200)" fill="#a3a5aa"/>
+    <use href="#nunito-b" transform="translate(329.71 274.00) scale(0.01200 -0.01200)" fill="#a3a5aa"/>
+  </g>
+  <!-- text: Mar -->
+  <g aria-label="Mar">
+    <use href="#nunito-M" transform="translate(384.73 274.00) scale(0.01200 -0.01200)" fill="#a3a5aa"/>
+    <use href="#nunito-a" transform="translate(394.99 274.00) scale(0.01200 -0.01200)" fill="#a3a5aa"/>
+    <use href="#nunito-r" transform="translate(401.35 274.00) scale(0.01200 -0.01200)" fill="#a3a5aa"/>
+  </g>
+  <!-- text: Apr -->
+  <g aria-label="Apr">
+    <use href="#nunito-A" transform="translate(470.75 274.00) scale(0.01200 -0.01200)" fill="#a3a5aa"/>
+    <use href="#nunito-p" transform="translate(479.50 274.00) scale(0.01200 -0.01200)" fill="#a3a5aa"/>
+    <use href="#nunito-r" transform="translate(486.49 274.00) scale(0.01200 -0.01200)" fill="#a3a5aa"/>
+  </g>
+  <!-- text: May -->
+  <g aria-label="May">
+    <use href="#nunito-M" transform="translate(537.84 274.00) scale(0.01200 -0.01200)" fill="#a3a5aa"/>
+    <use href="#nunito-a" transform="translate(548.10 274.00) scale(0.01200 -0.01200)" fill="#a3a5aa"/>
+    <use href="#nunito-y" transform="translate(554.46 274.00) scale(0.01200 -0.01200)" fill="#a3a5aa"/>
+  </g>
+  <!-- text: Jun -->
+  <g aria-label="Jun">
+    <use href="#nunito-J" transform="translate(626.09 274.00) scale(0.01200 -0.01200)" fill="#a3a5aa"/>
+    <use href="#nunito-u" transform="translate(629.98 274.00) scale(0.01200 -0.01200)" fill="#a3a5aa"/>
+    <use href="#nunito-n" transform="translate(636.71 274.00) scale(0.01200 -0.01200)" fill="#a3a5aa"/>
+  </g>
+  <!-- text: Jul -->
+  <g aria-label="Jul">
+    <use href="#nunito-J" transform="translate(696.18 274.00) scale(0.01200 -0.01200)" fill="#a3a5aa"/>
+    <use href="#nunito-u" transform="translate(700.07 274.00) scale(0.01200 -0.01200)" fill="#a3a5aa"/>
+    <use href="#nunito-l" transform="translate(706.80 274.00) scale(0.01200 -0.01200)" fill="#a3a5aa"/>
+  </g>
+  <!-- text: Aug -->
+  <g aria-label="Aug">
+    <use href="#nunito-A" transform="translate(760.47 274.00) scale(0.01200 -0.01200)" fill="#a3a5aa"/>
+    <use href="#nunito-u" transform="translate(769.22 274.00) scale(0.01200 -0.01200)" fill="#a3a5aa"/>
+    <use href="#nunito-g" transform="translate(775.95 274.00) scale(0.01200 -0.01200)" fill="#a3a5aa"/>
+  </g>
+  <!-- text: Sep -->
+  <g aria-label="Sep">
+    <use href="#nunito-S" transform="translate(846.93 274.00) scale(0.01200 -0.01200)" fill="#a3a5aa"/>
+    <use href="#nunito-e" transform="translate(854.31 274.00) scale(0.01200 -0.01200)" fill="#a3a5aa"/>
+    <use href="#nunito-p" transform="translate(860.69 274.00) scale(0.01200 -0.01200)" fill="#a3a5aa"/>
+  </g>
+  <!-- text: Oct -->
+  <g aria-label="Oct">
+    <use href="#nunito-O" transform="translate(916.29 274.00) scale(0.01200 -0.01200)" fill="#a3a5aa"/>
+    <use href="#nunito-c" transform="translate(925.49 274.00) scale(0.01200 -0.01200)" fill="#a3a5aa"/>
+    <use href="#nunito-t" transform="translate(931.05 274.00) scale(0.01200 -0.01200)" fill="#a3a5aa"/>
+  </g>
+  <!-- Area under the line, the line itself and a dot for each week -->
+  <path d="M70.0 185.7 L87.1 156.2 L104.2 244.7 L121.3 248.0 L138.5 248.0 L155.6 221.8 L172.7 248.0
+      L189.8 231.6 L206.9 238.2 L224.0 228.3 L241.2 248.0 L258.3 248.0 L275.4 238.2 L292.5 215.2
+      L309.6 225.0 L326.7 205.4 L343.8 218.5 L361.0 179.1 L378.1 248.0 L395.2 248.0 L412.3 244.7
+      L429.4 248.0 L446.5 248.0 L463.7 231.6 L480.8 248.0 L497.9 244.7 L515.0 218.5 L532.1 248.0
+      L549.2 248.0 L566.3 215.2 L583.5 215.2 L600.6 248.0 L617.7 234.9 L634.8 248.0 L651.9 248.0
+      L669.0 221.8 L686.2 159.4 L703.3 211.9 L720.4 159.4 L737.5 169.3 L754.6 113.5 L771.7 189.0
+      L788.8 143.0 L806.0 123.4 L823.1 182.4 L840.2 225.0 L857.3 195.5 L874.4 189.0 L891.5 189.0
+      L908.7 166.0 L925.8 169.3 L942.9 182.4 L960.0 159.4 L960 248 L70 248 Z" fill="#d99a96" opacity=".13"/>
+  <path d="M70.0 185.7 L87.1 156.2 L104.2 244.7 L121.3 248.0 L138.5 248.0 L155.6 221.8 L172.7 248.0
+      L189.8 231.6 L206.9 238.2 L224.0 228.3 L241.2 248.0 L258.3 248.0 L275.4 238.2 L292.5 215.2
+      L309.6 225.0 L326.7 205.4 L343.8 218.5 L361.0 179.1 L378.1 248.0 L395.2 248.0 L412.3 244.7
+      L429.4 248.0 L446.5 248.0 L463.7 231.6 L480.8 248.0 L497.9 244.7 L515.0 218.5 L532.1 248.0
+      L549.2 248.0 L566.3 215.2 L583.5 215.2 L600.6 248.0 L617.7 234.9 L634.8 248.0 L651.9 248.0
+      L669.0 221.8 L686.2 159.4 L703.3 211.9 L720.4 159.4 L737.5 169.3 L754.6 113.5 L771.7 189.0
+      L788.8 143.0 L806.0 123.4 L823.1 182.4 L840.2 225.0 L857.3 195.5 L874.4 189.0 L891.5 189.0
+      L908.7 166.0 L925.8 169.3 L942.9 182.4 L960.0 159.4" fill="none" stroke="#d99a96" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="70.0" cy="185.7" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>19 contributions, week of 2025-10-19</title>
+  </circle>
+  <circle cx="87.1" cy="156.2" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>28 contributions, week of 2025-10-26</title>
+  </circle>
+  <circle cx="104.2" cy="244.7" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>1 contribution, week of 2025-11-02</title>
+  </circle>
+  <circle cx="121.3" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>0 contributions, week of 2025-11-09</title>
+  </circle>
+  <circle cx="138.5" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>0 contributions, week of 2025-11-16</title>
+  </circle>
+  <circle cx="155.6" cy="221.8" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>8 contributions, week of 2025-11-23</title>
+  </circle>
+  <circle cx="172.7" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>0 contributions, week of 2025-11-30</title>
+  </circle>
+  <circle cx="189.8" cy="231.6" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>5 contributions, week of 2025-12-07</title>
+  </circle>
+  <circle cx="206.9" cy="238.2" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>3 contributions, week of 2025-12-14</title>
+  </circle>
+  <circle cx="224.0" cy="228.3" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>6 contributions, week of 2025-12-21</title>
+  </circle>
+  <circle cx="241.2" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>0 contributions, week of 2025-12-28</title>
+  </circle>
+  <circle cx="258.3" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>0 contributions, week of 2026-01-04</title>
+  </circle>
+  <circle cx="275.4" cy="238.2" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>3 contributions, week of 2026-01-11</title>
+  </circle>
+  <circle cx="292.5" cy="215.2" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>10 contributions, week of 2026-01-18</title>
+  </circle>
+  <circle cx="309.6" cy="225.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>7 contributions, week of 2026-01-25</title>
+  </circle>
+  <circle cx="326.7" cy="205.4" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>13 contributions, week of 2026-02-01</title>
+  </circle>
+  <circle cx="343.8" cy="218.5" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>9 contributions, week of 2026-02-08</title>
+  </circle>
+  <circle cx="361.0" cy="179.1" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>21 contributions, week of 2026-02-15</title>
+  </circle>
+  <circle cx="378.1" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>0 contributions, week of 2026-02-22</title>
+  </circle>
+  <circle cx="395.2" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>0 contributions, week of 2026-03-01</title>
+  </circle>
+  <circle cx="412.3" cy="244.7" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>1 contribution, week of 2026-03-08</title>
+  </circle>
+  <circle cx="429.4" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>0 contributions, week of 2026-03-15</title>
+  </circle>
+  <circle cx="446.5" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>0 contributions, week of 2026-03-22</title>
+  </circle>
+  <circle cx="463.7" cy="231.6" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>5 contributions, week of 2026-03-29</title>
+  </circle>
+  <circle cx="480.8" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>0 contributions, week of 2026-04-05</title>
+  </circle>
+  <circle cx="497.9" cy="244.7" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>1 contribution, week of 2026-04-12</title>
+  </circle>
+  <circle cx="515.0" cy="218.5" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>9 contributions, week of 2026-04-19</title>
+  </circle>
+  <circle cx="532.1" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>0 contributions, week of 2026-04-26</title>
+  </circle>
+  <circle cx="549.2" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>0 contributions, week of 2026-05-03</title>
+  </circle>
+  <circle cx="566.3" cy="215.2" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>10 contributions, week of 2026-05-10</title>
+  </circle>
+  <circle cx="583.5" cy="215.2" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>10 contributions, week of 2026-05-17</title>
+  </circle>
+  <circle cx="600.6" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>0 contributions, week of 2026-05-24</title>
+  </circle>
+  <circle cx="617.7" cy="234.9" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>4 contributions, week of 2026-05-31</title>
+  </circle>
+  <circle cx="634.8" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>0 contributions, week of 2026-06-07</title>
+  </circle>
+  <circle cx="651.9" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>0 contributions, week of 2026-06-14</title>
+  </circle>
+  <circle cx="669.0" cy="221.8" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>8 contributions, week of 2026-06-21</title>
+  </circle>
+  <circle cx="686.2" cy="159.4" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>27 contributions, week of 2026-06-28</title>
+  </circle>
+  <circle cx="703.3" cy="211.9" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>11 contributions, week of 2026-07-05</title>
+  </circle>
+  <circle cx="720.4" cy="159.4" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>27 contributions, week of 2026-07-12</title>
+  </circle>
+  <circle cx="737.5" cy="169.3" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>24 contributions, week of 2026-07-19</title>
+  </circle>
+  <circle cx="754.6" cy="113.5" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>41 contributions, week of 2026-07-26</title>
+  </circle>
+  <circle cx="771.7" cy="189.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>18 contributions, week of 2026-08-02</title>
+  </circle>
+  <circle cx="788.8" cy="143.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>32 contributions, week of 2026-08-09</title>
+  </circle>
+  <circle cx="806.0" cy="123.4" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>38 contributions, week of 2026-08-16</title>
+  </circle>
+  <circle cx="823.1" cy="182.4" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>20 contributions, week of 2026-08-23</title>
+  </circle>
+  <circle cx="840.2" cy="225.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>7 contributions, week of 2026-08-30</title>
+  </circle>
+  <circle cx="857.3" cy="195.5" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>16 contributions, week of 2026-09-06</title>
+  </circle>
+  <circle cx="874.4" cy="189.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>18 contributions, week of 2026-09-13</title>
+  </circle>
+  <circle cx="891.5" cy="189.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>18 contributions, week of 2026-09-20</title>
+  </circle>
+  <circle cx="908.7" cy="166.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>25 contributions, week of 2026-09-27</title>
+  </circle>
+  <circle cx="925.8" cy="169.3" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>24 contributions, week of 2026-10-04</title>
+  </circle>
+  <circle cx="942.9" cy="182.4" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>20 contributions, week of 2026-10-11</title>
+  </circle>
+  <circle cx="960.0" cy="159.4" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>27 contributions, week of 2026-10-18</title>
+  </circle>
+</svg>

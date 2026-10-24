@@ -97,10 +97,21 @@ Open to internships and research in backend, agentic AI and AI security
 <img src="assets/contributions.svg" alt="GitHub contribution calendar for the last year" width="100%">
 </p>
 
+<p align="center">
+<img src="assets/activity.svg" alt="GitHub contribution activity: contributions per week over the last year" width="100%">
+</p>
+
 ## Let’s connect
 
 <p align="center">
 <a href="https://www.linkedin.com/in/syeda-maha-fatima/"><img src="assets/btn-linkedin.svg" alt="LinkedIn" height="54"></a>
 &nbsp;&nbsp;
 <a href="mailto:siedaamaha@gmail.com"><img src="assets/btn-email.svg" alt="Email" height="54"></a>
+</p>
+
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=graywhite" alt="A random quote that changes every time the page loads" width="70%">
+</picture>
 </p>

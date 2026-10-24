@@ -184,6 +184,55 @@ def render(weeks, total):
                   f'<defs><!-- Glyph outlines used by the labels -->{defs}</defs>{"".join(d.body)}</svg>')
 
 
+def render_activity(weeks, total):
+    """Line graph of contributions per week over the last year."""
+    W, H = 1000, 300
+    x0, x1, y0, y1 = 70, W - 40, 84, H - 52
+    sums = [sum(n for _, n in wk) for wk in weeks]
+    top = max(max(sums), 4)
+    step = 5 if top <= 25 else 10 if top <= 60 else 20 if top <= 120 else 50
+    top = ((top + step - 1) // step) * step
+    px = lambda i: x0 + i * (x1 - x0) / max(1, len(sums) - 1)
+    py = lambda v: y1 - v * (y1 - y0) / top
+
+    d = Doc()
+    d.body.append('<!-- Panel background and border -->')
+    d.body.append(f'<rect width="{W}" height="{H}" rx="20" fill="{PINE0}"/>')
+    d.body.append(f'<rect x=".5" y=".5" width="{W-1}" height="{H-1}" rx="19.5" fill="none" stroke="{PINE3}"/>')
+    d.text(32, 46, "Contribution activity", "BG6", 20, STONE)
+    d.text(W - 32, 46, "contributions per week", "MM", 13, LICHEN, anchor="end")
+
+    d.body.append('<!-- Horizontal grid lines and value labels -->')
+    for v in range(0, top + 1, step):
+        d.body.append(f'<path d="M{x0} {py(v):.1f} H{x1}" stroke="{PINE3}" stroke-width="1" stroke-dasharray="2 5" opacity=".7"/>')
+        d.text(x0 - 12, py(v) + 4, str(v), "MM", 11, LICHEN, anchor="end")
+
+    d.body.append('<!-- Month labels -->')
+    last_m, last_i = None, -9
+    for i, wk in enumerate(weeks):
+        if not wk: continue
+        day = datetime.date.fromisoformat(wk[0][0])
+        if day.month != last_m and i - last_i >= 3:
+            d.text(px(i), y1 + 26, day.strftime("%b"), "MM", 12, LICHEN, anchor="middle")
+            last_i = i
+        last_m = day.month
+
+    pts = [(px(i), py(v)) for i, v in enumerate(sums)]
+    line = "M" + " L".join(f"{x:.1f} {y:.1f}" for x, y in pts)
+    d.body.append('<!-- Area under the line, the line itself and a dot for each week -->')
+    d.body.append(f'<path d="{line} L{x1} {y1} L{x0} {y1} Z" fill="{ROSE}" opacity=".13"/>')
+    d.body.append(f'<path d="{line}" fill="none" stroke="{ROSE}" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>')
+    for (x, y), v, wk in zip(pts, sums, weeks):
+        d.body.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="3.2" fill="{PINE0}" stroke="{ROSE}" stroke-width="1.6">'
+                      f'<title>{v} contribution{"s" if v != 1 else ""}, week of {wk[0][0]}</title></circle>')
+
+    defs = "".join(f'<path id="{k}" d="{v}"/>' for k, v in d.defs.items())
+    desc = f"Line graph of weekly contributions over the last year: {total} in total."
+    return pretty(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" '
+                  f'aria-labelledby="t d"><title id="t">GitHub contribution activity</title><desc id="d">{escape(desc)}</desc>'
+                  f'<defs><!-- Glyph outlines used by the labels -->{defs}</defs>{"".join(d.body)}</svg>')
+
+
 def main():
     if "--sample" in sys.argv: weeks, total = sample()
     elif "--empty" in sys.argv: weeks, total = empty()
@@ -193,6 +242,8 @@ def main():
         weeks, total = fetch(login, token)
     os.makedirs(os.path.dirname(os.path.abspath(OUT)), exist_ok=True)
     with open(OUT, "w") as fh: fh.write(render(weeks, total))
+    act_out = os.path.join(os.path.dirname(os.path.abspath(OUT)), "activity.svg")
+    with open(act_out, "w") as fh: fh.write(render_activity(weeks, total))
     print("wrote", OUT, "total", total)
 
 
