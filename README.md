@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-<b>Backend AI intern at Flyrank</b> &nbsp;·&nbsp; CS at FAST-NUCES, class of 2028 &nbsp;·&nbsp; Dean’s List, 3 years running<br>
+<b>Backend AI intern at Flyrank</b> &nbsp;·&nbsp; CS at FAST-NUCES, class of 2028<br>
 Open to internships and research in backend, agentic AI and AI security
 </p>
 

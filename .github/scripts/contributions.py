@@ -9,17 +9,55 @@ Usage:
 Text is drawn from outlined glyphs (glyphs.json) so the SVG looks the same everywhere.
 Stdlib only.
 """
-import datetime, json, os, random, sys, urllib.request
+import datetime, json, os, random, re, sys, urllib.request
 from html import escape
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.environ.get("CONTRIB_OUT") or os.path.join(HERE, "..", "..", "assets", "contributions.svg")
 
-PINE0, PINE3 = "#1c1918", "#4a403f"
-LICHEN, STONE, ROSE = "#9d908c", "#ece7e4", "#d99a96"
-LEVELS = ["#2f2827", "#4d3d3d", "#7d5d5b", "#b27f7b", "#e4a8a3"]
+PINE0, PINE3 = "#2d2f33", "#585b61"
+LICHEN, STONE, ROSE = "#a3a5aa", "#eeeff0", "#d99a96"
+LEVELS = ["#3f4146", "#665056", "#8f6169", "#bf8087", "#e4a8a3"]
 
 G = json.load(open(os.path.join(HERE, "glyphs.json")))
+FONTID = {"MM": "nunito", "BG6": "nunito-bold"}
+
+
+def wrap_path(d, indent, width=96):
+    segs = re.findall(r"[A-Za-z][^A-Za-z]*", d)
+    lines, cur = [], ""
+    for sg in segs:
+        sg = sg.strip()
+        if cur and len(cur) + len(sg) + 1 > width:
+            lines.append(cur); cur = sg
+        else:
+            cur = (cur + " " + sg).strip() if cur else sg
+    if cur: lines.append(cur)
+    return ("\n" + indent).join(lines)
+
+
+def pretty(svg, step="  "):
+    toks = re.findall(r"<!--.*?-->|<[^>]+>|[^<]+", svg, re.S)
+    out, depth, i = [], 0, 0
+    while i < len(toks):
+        t = toks[i]; ind = step * depth
+        if t.startswith("<!--"):
+            out.append(ind + t)
+        elif t.startswith("</"):
+            depth -= 1; out.append(step * depth + t)
+        elif t.startswith("<"):
+            m = re.search(r' d="([^"]{100,})"', t)
+            if m:
+                t = t.replace(m.group(0), ' d="' + wrap_path(m.group(1), ind + step * 2) + '"')
+            nxt = toks[i + 1] if i + 1 < len(toks) else ""
+            if not t.endswith("/>") and nxt and not nxt.startswith("<") and i + 2 < len(toks) and toks[i + 2].startswith("</"):
+                out.append(ind + t + nxt + toks[i + 2]); i += 2
+            else:
+                out.append(ind + t)
+                if not t.endswith("/>"): depth += 1
+        i += 1
+    return "\n".join(out) + "\n"
+
 
 
 def width(font, text, size, ls=0.0):
@@ -38,11 +76,12 @@ class Doc:
         for c in text:
             adv, d = f["g"][c]
             if d:
-                key = f"{font}{ord(c)}"
+                key = f"{FONTID[font]}-{c if c.isalnum() else 'U%04X' % ord(c)}"
                 self.defs[key] = d
                 out.append(f'<use href="#{key}" transform="translate({cx:.2f} {y:.2f}) scale({k:.5f} {-k:.5f})" fill="{fill}"/>')
             cx += adv * k + ls
-        self.body.append("<g>" + "".join(out) + "</g>")
+        self.body.append(f'<!-- text: {text} -->')
+        self.body.append(f'<g aria-label="{escape(text, quote=True)}">' + "".join(out) + "</g>")
         return w
 
 
@@ -97,6 +136,7 @@ def render(weeks, total):
     def level(n): return 0 if n == 0 else 1 if n <= t1 else 2 if n <= t2 else 3 if n <= t3 else 4
 
     d = Doc()
+    d.body.append('<!-- Panel background and border -->')
     d.body.append(f'<rect width="{W}" height="{H}" rx="20" fill="{PINE0}"/>')
     d.body.append(f'<rect x=".5" y=".5" width="{W-1}" height="{H-1}" rx="19.5" fill="none" stroke="{PINE3}"/>')
     # title
@@ -118,6 +158,7 @@ def render(weeks, total):
     for row, lab in ((1, "Mon"), (3, "Wed"), (5, "Fri")):
         d.text(32, y0 + row * pitch + cell * 0.8, lab, "MM", 11, LICHEN)
     # cells
+    d.body.append('<!-- Calendar cells: one square per day, shade = number of contributions (hover for the exact count) -->')
     for i, wk in enumerate(weeks):
         for j, (date, n) in enumerate(wk):
             x, y = x0 + i * pitch, y0 + j * pitch
@@ -125,6 +166,7 @@ def render(weeks, total):
             d.body.append(f'<rect x="{x:.1f}" y="{y:.1f}" width="{cell:.1f}" height="{cell:.1f}" rx="3.4" '
                           f'fill="{LEVELS[level(n)]}"><title>{escape(tip)}</title></rect>')
     # legend
+    d.body.append('<!-- Legend -->')
     ly = y0 + 7 * pitch + 28
     lx = W - 32
     lw = width("MM", "More", 12)
@@ -137,9 +179,9 @@ def render(weeks, total):
 
     defs = "".join(f'<path id="{k}" d="{v}"/>' for k, v in d.defs.items())
     desc = f"Contribution calendar for the last year: {total} contributions."
-    return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" '
-            f'aria-labelledby="t d"><title id="t">GitHub contributions</title><desc id="d">{escape(desc)}</desc>'
-            f'<defs>{defs}</defs>{"".join(d.body)}</svg>')
+    return pretty(f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W} {H}" width="{W}" height="{H}" role="img" '
+                  f'aria-labelledby="t d"><title id="t">GitHub contributions</title><desc id="d">{escape(desc)}</desc>'
+                  f'<defs><!-- Glyph outlines used by the labels -->{defs}</defs>{"".join(d.body)}</svg>')
 
 
 def main():
