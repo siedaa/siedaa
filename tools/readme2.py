@@ -8,7 +8,11 @@ for title, items in B2.STACK:
     alt = f"{title}: " + ", ".join(l for l,_ in items)
     stack_md.append(f'#### {title}\n\n<p>\n{img("stack-"+B2.slug_of(title)+".svg", alt)}\n</p>')
 md = f'''<p align="center">
-{img("hero.svg","Hi, I’m Maha, learning backend and agentic AI by building things. I build LLM pipelines, then try to break them.")}
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+  {img("hero-light.svg","Hi, I’m Maha, learning backend and agentic AI by building things. I build LLM pipelines, then try to break them.")}
+</picture>
 </p>
 
 <p align="center">

@@ -69,43 +69,52 @@ def edge(s, d, ex, ey):
     s.raw(f'<path d="M{ex-4.5} {ey-8} L{ex} {ey} L{ex+4.5} {ey-8} Z" fill="{LICHEN}"/>')
 
 
-def hero():
-    W, H = 1000, 364
+def hero(mode):
+    W, H = 1000, 290
     s = Svg(W, H, "Hi, I’m Maha, learning backend and agentic AI by building things",
             "Computer Science student at FAST-NUCES. I build LLM pipelines, then try to break them. "
             "Decorative graph: query, retrieve, guard, answer.")
-    s.comment("Clip shape so the contour lines stay inside the rounded panel")
-    s.raw(f'<defs><clipPath id="c"><rect width="{W}" height="{H}" rx="22"/></clipPath></defs>')
-    s.comment("Panel background, topographic contour lines and border")
-    s.raw(f'<rect width="{W}" height="{H}" rx="22" fill="{PINE0}"/>')
-    s.raw('<g clip-path="url(#c)">')
-    contours(s, 830, 190)
-    s.raw(f'<ellipse cx="830" cy="190" rx="280" ry="230" fill="{PINE0}" opacity=".35"/>')
-    s.raw("</g>")
-    s.raw(f'<rect x=".5" y=".5" width="{W-1}" height="{H-1}" rx="21.5" fill="none" stroke="{PINE3}"/>')
-
+    # No background panel: colours switch with the viewer's light/dark theme.
+    pal = {"light": dict(fg="#25262a", mute="#5d6066", ln="#8d9096", hotbg="#f3e4e5", rose="#a8505a"),
+           "dark": dict(fg="#eeeff0", mute="#b4b6bb", ln="#6e7176", hotbg="#3a2f33", rose="#d99a96")}[mode]
+    s.pre.append(f"<style>.fg{{fill:{pal['fg']}}}.mute{{fill:{pal['mute']}}}.ln{{stroke:{pal['ln']}}}"
+                 f".ln-f{{fill:{pal['ln']}}}.hot-bg{{fill:{pal['hotbg']}}}.rose{{fill:{pal['rose']}}}"
+                 f".hot-ln{{stroke:{pal['rose']}}}</style>")
     s.comment("Headline and intro lines")
-    lines = [[("Hi, I’m Maha, learning", "IS", STONE)],
-             [("backend & agentic AI", "IS", STONE)],
-             [("by building things.", "IS", ROSE)]]
-    size = min(fit(l, 540, 56) for l in lines)
-    y = 98
+    lines = [[("Hi, I’m Maha, learning", "IS4", "#010101")],
+             [("backend & agentic AI", "IS4", "#010101")],
+             [("by building things.", "IS4", "#020202")]]
+    size = 38
+    y = 70
     for l in lines:
-        s.runs(48, y, l, size); y += size * 1.2
+        s.runs(8, y, l, size); y += size * 1.22
     for i, ln in enumerate(["CS student at FAST-NUCES.", "I build LLM pipelines, then try to break them."]):
-        s.text(52, y + 6 + i * 29, ln, "BG", 19.5, MIST)
+        s.text(10, y + 8 + i * 26, ln, "BG", 17, "#030303")
 
-    # decorative agent graph: query -> retrieve -> guard -> answer
     s.comment("Decorative agent graph: query, retrieve, guard, answer")
-    d = 22
-    node(s, 706, 78 + d, 100, "query")
-    node(s, 862, 128 + d, 116, "retrieve")
-    node(s, 722, 204 + d, 100, "guard", hot=True)
-    node(s, 862, 268 + d, 108, "answer")
-    edge(s, f"M756 {78+d} C 830 {78+d}, 862 {86+d}, 862 {110+d}", 862, 111 + d)
-    edge(s, f"M804 {128+d} C 740 {128+d}, 722 {152+d}, 722 {185+d}", 722, 187 + d)
-    edge(s, f"M772 {204+d} C 840 {204+d}, 862 {226+d}, 862 {249+d}", 862, 251 + d)
-    s.save("hero.svg")
+    off = -36
+    def node_(cx, cy, w, label, hot=False):
+        x, y = cx - w / 2, cy - 17
+        s.raw(f'<rect x="{x:.1f}" y="{y}" width="{w}" height="34" rx="11" '
+              + ('class="hot-bg hot-ln" stroke-width="1.4"' if hot else 'fill="none" class="ln" stroke-width="1"') + '/>')
+        s.text(cx, cy + 5, label, "MM", 13.5, "#020202" if hot else "#010101", anchor="middle")
+    def edge_(d, ex, ey):
+        s.raw(f'<path d="{d}" fill="none" class="ln" stroke-width="1.4" stroke-linecap="round"/>')
+        s.raw(f'<path d="M{ex-4.5} {ey-8} L{ex} {ey} L{ex+4.5} {ey-8} Z" class="ln-f"/>')
+    d = 22 + off
+    node_(706, 78 + d, 100, "query")
+    node_(862, 128 + d, 116, "retrieve")
+    node_(722, 204 + d, 100, "guard", hot=True)
+    node_(862, 268 + d, 108, "answer")
+    edge_(f"M756 {78+d} C 830 {78+d}, 862 {86+d}, 862 {110+d}", 862, 111 + d)
+    edge_(f"M804 {128+d} C 740 {128+d}, 722 {152+d}, 722 {185+d}", 722, 187 + d)
+    edge_(f"M772 {204+d} C 840 {204+d}, 862 {226+d}, 862 {249+d}", 862, 251 + d)
+    s.save(f"hero-{mode}.svg")
+    p = f"{OUT2}/assets/hero-{mode}.svg"
+    x = open(p).read()
+    for col, cls in (("#010101", "fg"), ("#030303", "mute"), ("#020202", "rose")):
+        x = x.replace(f'fill="{col}"', f'class="{cls}"')
+    open(p, "w").write(x)
 
 
 # =====================================================================
@@ -276,7 +285,7 @@ def glyph_json():
 if __name__ == "__main__":
     shutil.rmtree(OUT2, ignore_errors=True)
     os.makedirs(f"{OUT2}/assets")
-    hero()
+    hero("light"); hero("dark")
     card("card-interviewer.svg", "01", "AGENTIC  /  VOICE", "AI Video", "Interviewer",
          ["5"], "MCP tools for Claude Desktop",
          "Joins a live LiveKit call with a face and a voice. Turns a job description, resume and GitHub repos into a "

@@ -43,6 +43,7 @@ class Font:
 
 FONT = {
     "IS": Font(f"{FD}/kalam/files/kalam-latin-700-normal.woff2"),       # display: handwriting-style
+    "IS4": Font(f"{FD}/kalam/files/kalam-latin-400-normal.woff2"),       # lighter weight of the same hand
     "ISI": Font(f"{FD}/kalam/files/kalam-latin-700-normal.woff2"),
     "MM": Font(f"{FD}/nunito/files/nunito-latin-400-normal.woff2"),     # body / labels
     "MM6": Font(f"{FD}/nunito/files/nunito-latin-700-normal.woff2"),
@@ -52,7 +53,7 @@ FONT = {
 
 
 
-FONTID = {"IS": "kalam", "ISI": "kalam", "MM": "nunito", "BG": "nunito", "MM6": "nunito-bold", "BG6": "nunito-bold"}
+FONTID = {"IS": "kalam", "IS4": "kalam-regular", "ISI": "kalam", "MM": "nunito", "BG": "nunito", "MM6": "nunito-bold", "BG6": "nunito-bold"}
 
 
 def wrap_path(d, indent, width=96):

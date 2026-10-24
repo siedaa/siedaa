@@ -1,5 +1,9 @@
 <p align="center">
-<img src="assets/hero.svg" alt="Hi, I’m Maha, learning backend and agentic AI by building things. I build LLM pipelines, then try to break them." width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+  <img src="assets/hero-light.svg" alt="Hi, I’m Maha, learning backend and agentic AI by building things. I build LLM pipelines, then try to break them." width="100%">
+</picture>
 </p>
 
 <p align="center">
