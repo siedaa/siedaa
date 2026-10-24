@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="1000" height="300" role="img" aria-labelledby="t d">
   <title id="t">GitHub contribution activity</title>
-  <desc id="d">Line graph of weekly contributions over the last year: 574 in total.</desc>
+  <desc id="d">Line graph of weekly contributions over the last year: 219 in total.</desc>
   <defs>
     <!-- Glyph outlines used by the labels -->
     <path id="nunito-bold-C" d="M405 -10 Q295 -10 216 34 Q138 79 96 160 Q54 242 54 353 Q54 436 78 502 Q102 569 147 616
@@ -153,13 +153,6 @@
         Q57 222 70 240 L375 684 Q384 698 395 705 Q406 712 421 712 Q437 712 448 702 Q460 692 460 670 V221
         H533 Q552 221 562 212 Q572 203 572 186 Q572 169 562 160 Q552 151 533 151 H460 V35 Q460 15 449 4
         Q438 -7 418 -7 Z M377 221 V609 H401 L121 199 V221 Z"/>
-    <path id="nunito-5" d="M315 -9 Q258 -9 202 8 Q145 25 99 61 Q87 69 83 80 Q79 91 82 102 Q85 113 93 120 Q101 128 112 129
-        Q124 130 137 121 Q178 92 222 78 Q266 64 314 64 Q363 64 398 82 Q434 101 452 134 Q471 168 471 213
-        Q471 282 431 326 Q391 370 321 370 Q278 370 242 354 Q206 338 176 303 Q169 295 160 290
-        Q150 284 138 284 Q121 284 112 294 Q102 303 102 319 V667 Q102 686 112 696 Q122 705 140 705 H480
-        Q499 705 508 696 Q518 687 518 670 Q518 653 508 644 Q499 635 480 635 H183 V354 H161
-        Q187 396 233 418 Q279 441 336 441 Q403 441 452 413 Q500 385 526 334 Q553 284 553 217
-        Q553 151 524 100 Q495 49 442 20 Q389 -9 315 -9 Z"/>
     <path id="nunito-O" d="M383 -9 Q285 -9 212 36 Q140 80 100 161 Q61 242 61 353 Q61 437 84 504 Q106 570 148 616
         Q190 663 250 688 Q309 714 383 714 Q483 714 556 670 Q628 626 668 546 Q707 465 707 354
         Q707 270 684 203 Q661 136 619 89 Q577 42 518 16 Q458 -9 383 -9 Z M383 64 Q459 64 512 98
@@ -270,34 +263,28 @@
   <g aria-label="0">
     <use href="#nunito-0" transform="translate(51.40 252.00) scale(0.01100 -0.01100)" fill="#a3a5aa"/>
   </g>
-  <path d="M70 215.2 H960" stroke="#585b61" stroke-width="1" stroke-dasharray="2 5" opacity=".7"/>
+  <path d="M70 207.0 H960" stroke="#585b61" stroke-width="1" stroke-dasharray="2 5" opacity=".7"/>
   <!-- text: 10 -->
   <g aria-label="10">
-    <use href="#nunito-1" transform="translate(44.80 219.20) scale(0.01100 -0.01100)" fill="#a3a5aa"/>
-    <use href="#nunito-0" transform="translate(51.40 219.20) scale(0.01100 -0.01100)" fill="#a3a5aa"/>
+    <use href="#nunito-1" transform="translate(44.80 211.00) scale(0.01100 -0.01100)" fill="#a3a5aa"/>
+    <use href="#nunito-0" transform="translate(51.40 211.00) scale(0.01100 -0.01100)" fill="#a3a5aa"/>
   </g>
-  <path d="M70 182.4 H960" stroke="#585b61" stroke-width="1" stroke-dasharray="2 5" opacity=".7"/>
+  <path d="M70 166.0 H960" stroke="#585b61" stroke-width="1" stroke-dasharray="2 5" opacity=".7"/>
   <!-- text: 20 -->
   <g aria-label="20">
-    <use href="#nunito-2" transform="translate(44.80 186.40) scale(0.01100 -0.01100)" fill="#a3a5aa"/>
-    <use href="#nunito-0" transform="translate(51.40 186.40) scale(0.01100 -0.01100)" fill="#a3a5aa"/>
+    <use href="#nunito-2" transform="translate(44.80 170.00) scale(0.01100 -0.01100)" fill="#a3a5aa"/>
+    <use href="#nunito-0" transform="translate(51.40 170.00) scale(0.01100 -0.01100)" fill="#a3a5aa"/>
   </g>
-  <path d="M70 149.6 H960" stroke="#585b61" stroke-width="1" stroke-dasharray="2 5" opacity=".7"/>
+  <path d="M70 125.0 H960" stroke="#585b61" stroke-width="1" stroke-dasharray="2 5" opacity=".7"/>
   <!-- text: 30 -->
   <g aria-label="30">
-    <use href="#nunito-3" transform="translate(44.80 153.60) scale(0.01100 -0.01100)" fill="#a3a5aa"/>
-    <use href="#nunito-0" transform="translate(51.40 153.60) scale(0.01100 -0.01100)" fill="#a3a5aa"/>
-  </g>
-  <path d="M70 116.8 H960" stroke="#585b61" stroke-width="1" stroke-dasharray="2 5" opacity=".7"/>
-  <!-- text: 40 -->
-  <g aria-label="40">
-    <use href="#nunito-4" transform="translate(44.80 120.80) scale(0.01100 -0.01100)" fill="#a3a5aa"/>
-    <use href="#nunito-0" transform="translate(51.40 120.80) scale(0.01100 -0.01100)" fill="#a3a5aa"/>
+    <use href="#nunito-3" transform="translate(44.80 129.00) scale(0.01100 -0.01100)" fill="#a3a5aa"/>
+    <use href="#nunito-0" transform="translate(51.40 129.00) scale(0.01100 -0.01100)" fill="#a3a5aa"/>
   </g>
   <path d="M70 84.0 H960" stroke="#585b61" stroke-width="1" stroke-dasharray="2 5" opacity=".7"/>
-  <!-- text: 50 -->
-  <g aria-label="50">
-    <use href="#nunito-5" transform="translate(44.80 88.00) scale(0.01100 -0.01100)" fill="#a3a5aa"/>
+  <!-- text: 40 -->
+  <g aria-label="40">
+    <use href="#nunito-4" transform="translate(44.80 88.00) scale(0.01100 -0.01100)" fill="#a3a5aa"/>
     <use href="#nunito-0" transform="translate(51.40 88.00) scale(0.01100 -0.01100)" fill="#a3a5aa"/>
   </g>
   <!-- Month labels -->
@@ -374,51 +361,51 @@
     <use href="#nunito-t" transform="translate(931.05 274.00) scale(0.01200 -0.01200)" fill="#a3a5aa"/>
   </g>
   <!-- Area under the line, the line itself and a dot for each week -->
-  <path d="M70.0 185.7 L87.1 156.2 L104.2 244.7 L121.3 248.0 L138.5 248.0 L155.6 221.8 L172.7 248.0
-      L189.8 231.6 L206.9 238.2 L224.0 228.3 L241.2 248.0 L258.3 248.0 L275.4 238.2 L292.5 215.2
-      L309.6 225.0 L326.7 205.4 L343.8 218.5 L361.0 179.1 L378.1 248.0 L395.2 248.0 L412.3 244.7
-      L429.4 248.0 L446.5 248.0 L463.7 231.6 L480.8 248.0 L497.9 244.7 L515.0 218.5 L532.1 248.0
-      L549.2 248.0 L566.3 215.2 L583.5 215.2 L600.6 248.0 L617.7 234.9 L634.8 248.0 L651.9 248.0
-      L669.0 221.8 L686.2 159.4 L703.3 211.9 L720.4 159.4 L737.5 169.3 L754.6 113.5 L771.7 189.0
-      L788.8 143.0 L806.0 123.4 L823.1 182.4 L840.2 225.0 L857.3 195.5 L874.4 189.0 L891.5 189.0
-      L908.7 166.0 L925.8 169.3 L942.9 182.4 L960.0 159.4 L960 248 L70 248 Z" fill="#d99a96" opacity=".13"/>
-  <path d="M70.0 185.7 L87.1 156.2 L104.2 244.7 L121.3 248.0 L138.5 248.0 L155.6 221.8 L172.7 248.0
-      L189.8 231.6 L206.9 238.2 L224.0 228.3 L241.2 248.0 L258.3 248.0 L275.4 238.2 L292.5 215.2
-      L309.6 225.0 L326.7 205.4 L343.8 218.5 L361.0 179.1 L378.1 248.0 L395.2 248.0 L412.3 244.7
-      L429.4 248.0 L446.5 248.0 L463.7 231.6 L480.8 248.0 L497.9 244.7 L515.0 218.5 L532.1 248.0
-      L549.2 248.0 L566.3 215.2 L583.5 215.2 L600.6 248.0 L617.7 234.9 L634.8 248.0 L651.9 248.0
-      L669.0 221.8 L686.2 159.4 L703.3 211.9 L720.4 159.4 L737.5 169.3 L754.6 113.5 L771.7 189.0
-      L788.8 143.0 L806.0 123.4 L823.1 182.4 L840.2 225.0 L857.3 195.5 L874.4 189.0 L891.5 189.0
-      L908.7 166.0 L925.8 169.3 L942.9 182.4 L960.0 159.4" fill="none" stroke="#d99a96" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
-  <circle cx="70.0" cy="185.7" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>19 contributions, week of 2025-10-19</title>
+  <path d="M70.0 235.7 L87.1 161.9 L104.2 248.0 L121.3 235.7 L138.5 202.9 L155.6 248.0 L172.7 248.0
+      L189.8 248.0 L206.9 248.0 L224.0 248.0 L241.2 248.0 L258.3 248.0 L275.4 248.0 L292.5 248.0
+      L309.6 248.0 L326.7 248.0 L343.8 248.0 L361.0 248.0 L378.1 219.3 L395.2 243.9 L412.3 239.8
+      L429.4 248.0 L446.5 231.6 L463.7 248.0 L480.8 248.0 L497.9 248.0 L515.0 248.0 L532.1 248.0
+      L549.2 248.0 L566.3 248.0 L583.5 248.0 L600.6 248.0 L617.7 248.0 L634.8 248.0 L651.9 248.0
+      L669.0 248.0 L686.2 227.5 L703.3 219.3 L720.4 202.9 L737.5 243.9 L754.6 202.9 L771.7 223.4
+      L788.8 112.7 L806.0 186.5 L823.1 170.1 L840.2 170.1 L857.3 211.1 L874.4 235.7 L891.5 243.9
+      L908.7 235.7 L925.8 219.3 L942.9 219.3 L960.0 207.0 L960 248 L70 248 Z" fill="#d99a96" opacity=".13"/>
+  <path d="M70.0 235.7 L87.1 161.9 L104.2 248.0 L121.3 235.7 L138.5 202.9 L155.6 248.0 L172.7 248.0
+      L189.8 248.0 L206.9 248.0 L224.0 248.0 L241.2 248.0 L258.3 248.0 L275.4 248.0 L292.5 248.0
+      L309.6 248.0 L326.7 248.0 L343.8 248.0 L361.0 248.0 L378.1 219.3 L395.2 243.9 L412.3 239.8
+      L429.4 248.0 L446.5 231.6 L463.7 248.0 L480.8 248.0 L497.9 248.0 L515.0 248.0 L532.1 248.0
+      L549.2 248.0 L566.3 248.0 L583.5 248.0 L600.6 248.0 L617.7 248.0 L634.8 248.0 L651.9 248.0
+      L669.0 248.0 L686.2 227.5 L703.3 219.3 L720.4 202.9 L737.5 243.9 L754.6 202.9 L771.7 223.4
+      L788.8 112.7 L806.0 186.5 L823.1 170.1 L840.2 170.1 L857.3 211.1 L874.4 235.7 L891.5 243.9
+      L908.7 235.7 L925.8 219.3 L942.9 219.3 L960.0 207.0" fill="none" stroke="#d99a96" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/>
+  <circle cx="70.0" cy="235.7" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>3 contributions, week of 2025-10-19</title>
   </circle>
-  <circle cx="87.1" cy="156.2" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>28 contributions, week of 2025-10-26</title>
+  <circle cx="87.1" cy="161.9" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>21 contributions, week of 2025-10-26</title>
   </circle>
-  <circle cx="104.2" cy="244.7" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>1 contribution, week of 2025-11-02</title>
+  <circle cx="104.2" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>0 contributions, week of 2025-11-02</title>
   </circle>
-  <circle cx="121.3" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>0 contributions, week of 2025-11-09</title>
+  <circle cx="121.3" cy="235.7" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>3 contributions, week of 2025-11-09</title>
   </circle>
-  <circle cx="138.5" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>0 contributions, week of 2025-11-16</title>
+  <circle cx="138.5" cy="202.9" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>11 contributions, week of 2025-11-16</title>
   </circle>
-  <circle cx="155.6" cy="221.8" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>8 contributions, week of 2025-11-23</title>
+  <circle cx="155.6" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>0 contributions, week of 2025-11-23</title>
   </circle>
   <circle cx="172.7" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
     <title>0 contributions, week of 2025-11-30</title>
   </circle>
-  <circle cx="189.8" cy="231.6" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>5 contributions, week of 2025-12-07</title>
+  <circle cx="189.8" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>0 contributions, week of 2025-12-07</title>
   </circle>
-  <circle cx="206.9" cy="238.2" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>3 contributions, week of 2025-12-14</title>
+  <circle cx="206.9" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>0 contributions, week of 2025-12-14</title>
   </circle>
-  <circle cx="224.0" cy="228.3" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>6 contributions, week of 2025-12-21</title>
+  <circle cx="224.0" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>0 contributions, week of 2025-12-21</title>
   </circle>
   <circle cx="241.2" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
     <title>0 contributions, week of 2025-12-28</title>
@@ -426,50 +413,50 @@
   <circle cx="258.3" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
     <title>0 contributions, week of 2026-01-04</title>
   </circle>
-  <circle cx="275.4" cy="238.2" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>3 contributions, week of 2026-01-11</title>
+  <circle cx="275.4" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>0 contributions, week of 2026-01-11</title>
   </circle>
-  <circle cx="292.5" cy="215.2" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>10 contributions, week of 2026-01-18</title>
+  <circle cx="292.5" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>0 contributions, week of 2026-01-18</title>
   </circle>
-  <circle cx="309.6" cy="225.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>7 contributions, week of 2026-01-25</title>
+  <circle cx="309.6" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>0 contributions, week of 2026-01-25</title>
   </circle>
-  <circle cx="326.7" cy="205.4" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>13 contributions, week of 2026-02-01</title>
+  <circle cx="326.7" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>0 contributions, week of 2026-02-01</title>
   </circle>
-  <circle cx="343.8" cy="218.5" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>9 contributions, week of 2026-02-08</title>
+  <circle cx="343.8" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>0 contributions, week of 2026-02-08</title>
   </circle>
-  <circle cx="361.0" cy="179.1" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>21 contributions, week of 2026-02-15</title>
+  <circle cx="361.0" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>0 contributions, week of 2026-02-15</title>
   </circle>
-  <circle cx="378.1" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>0 contributions, week of 2026-02-22</title>
+  <circle cx="378.1" cy="219.3" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>7 contributions, week of 2026-02-22</title>
   </circle>
-  <circle cx="395.2" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>0 contributions, week of 2026-03-01</title>
+  <circle cx="395.2" cy="243.9" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>1 contribution, week of 2026-03-01</title>
   </circle>
-  <circle cx="412.3" cy="244.7" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>1 contribution, week of 2026-03-08</title>
+  <circle cx="412.3" cy="239.8" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>2 contributions, week of 2026-03-08</title>
   </circle>
   <circle cx="429.4" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
     <title>0 contributions, week of 2026-03-15</title>
   </circle>
-  <circle cx="446.5" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>0 contributions, week of 2026-03-22</title>
+  <circle cx="446.5" cy="231.6" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>4 contributions, week of 2026-03-22</title>
   </circle>
-  <circle cx="463.7" cy="231.6" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>5 contributions, week of 2026-03-29</title>
+  <circle cx="463.7" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>0 contributions, week of 2026-03-29</title>
   </circle>
   <circle cx="480.8" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
     <title>0 contributions, week of 2026-04-05</title>
   </circle>
-  <circle cx="497.9" cy="244.7" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>1 contribution, week of 2026-04-12</title>
+  <circle cx="497.9" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>0 contributions, week of 2026-04-12</title>
   </circle>
-  <circle cx="515.0" cy="218.5" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>9 contributions, week of 2026-04-19</title>
+  <circle cx="515.0" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>0 contributions, week of 2026-04-19</title>
   </circle>
   <circle cx="532.1" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
     <title>0 contributions, week of 2026-04-26</title>
@@ -477,17 +464,17 @@
   <circle cx="549.2" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
     <title>0 contributions, week of 2026-05-03</title>
   </circle>
-  <circle cx="566.3" cy="215.2" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>10 contributions, week of 2026-05-10</title>
+  <circle cx="566.3" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>0 contributions, week of 2026-05-10</title>
   </circle>
-  <circle cx="583.5" cy="215.2" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>10 contributions, week of 2026-05-17</title>
+  <circle cx="583.5" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>0 contributions, week of 2026-05-17</title>
   </circle>
   <circle cx="600.6" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
     <title>0 contributions, week of 2026-05-24</title>
   </circle>
-  <circle cx="617.7" cy="234.9" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>4 contributions, week of 2026-05-31</title>
+  <circle cx="617.7" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>0 contributions, week of 2026-05-31</title>
   </circle>
   <circle cx="634.8" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
     <title>0 contributions, week of 2026-06-07</title>
@@ -495,58 +482,58 @@
   <circle cx="651.9" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
     <title>0 contributions, week of 2026-06-14</title>
   </circle>
-  <circle cx="669.0" cy="221.8" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>8 contributions, week of 2026-06-21</title>
+  <circle cx="669.0" cy="248.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>0 contributions, week of 2026-06-21</title>
   </circle>
-  <circle cx="686.2" cy="159.4" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>27 contributions, week of 2026-06-28</title>
+  <circle cx="686.2" cy="227.5" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>5 contributions, week of 2026-06-28</title>
   </circle>
-  <circle cx="703.3" cy="211.9" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>11 contributions, week of 2026-07-05</title>
+  <circle cx="703.3" cy="219.3" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>7 contributions, week of 2026-07-05</title>
   </circle>
-  <circle cx="720.4" cy="159.4" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>27 contributions, week of 2026-07-12</title>
+  <circle cx="720.4" cy="202.9" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>11 contributions, week of 2026-07-12</title>
   </circle>
-  <circle cx="737.5" cy="169.3" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>24 contributions, week of 2026-07-19</title>
+  <circle cx="737.5" cy="243.9" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>1 contribution, week of 2026-07-19</title>
   </circle>
-  <circle cx="754.6" cy="113.5" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>41 contributions, week of 2026-07-26</title>
+  <circle cx="754.6" cy="202.9" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>11 contributions, week of 2026-07-26</title>
   </circle>
-  <circle cx="771.7" cy="189.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>18 contributions, week of 2026-08-02</title>
+  <circle cx="771.7" cy="223.4" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>6 contributions, week of 2026-08-02</title>
   </circle>
-  <circle cx="788.8" cy="143.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>32 contributions, week of 2026-08-09</title>
+  <circle cx="788.8" cy="112.7" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>33 contributions, week of 2026-08-09</title>
   </circle>
-  <circle cx="806.0" cy="123.4" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>38 contributions, week of 2026-08-16</title>
+  <circle cx="806.0" cy="186.5" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>15 contributions, week of 2026-08-16</title>
   </circle>
-  <circle cx="823.1" cy="182.4" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>20 contributions, week of 2026-08-23</title>
+  <circle cx="823.1" cy="170.1" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>19 contributions, week of 2026-08-23</title>
   </circle>
-  <circle cx="840.2" cy="225.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>7 contributions, week of 2026-08-30</title>
+  <circle cx="840.2" cy="170.1" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>19 contributions, week of 2026-08-30</title>
   </circle>
-  <circle cx="857.3" cy="195.5" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>16 contributions, week of 2026-09-06</title>
+  <circle cx="857.3" cy="211.1" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>9 contributions, week of 2026-09-06</title>
   </circle>
-  <circle cx="874.4" cy="189.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>18 contributions, week of 2026-09-13</title>
+  <circle cx="874.4" cy="235.7" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>3 contributions, week of 2026-09-13</title>
   </circle>
-  <circle cx="891.5" cy="189.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>18 contributions, week of 2026-09-20</title>
+  <circle cx="891.5" cy="243.9" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>1 contribution, week of 2026-09-20</title>
   </circle>
-  <circle cx="908.7" cy="166.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>25 contributions, week of 2026-09-27</title>
+  <circle cx="908.7" cy="235.7" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>3 contributions, week of 2026-09-27</title>
   </circle>
-  <circle cx="925.8" cy="169.3" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>24 contributions, week of 2026-10-04</title>
+  <circle cx="925.8" cy="219.3" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>7 contributions, week of 2026-10-04</title>
   </circle>
-  <circle cx="942.9" cy="182.4" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>20 contributions, week of 2026-10-11</title>
+  <circle cx="942.9" cy="219.3" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>7 contributions, week of 2026-10-11</title>
   </circle>
-  <circle cx="960.0" cy="159.4" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
-    <title>27 contributions, week of 2026-10-18</title>
+  <circle cx="960.0" cy="207.0" r="3.2" fill="#2d2f33" stroke="#d99a96" stroke-width="1.6">
+    <title>10 contributions, week of 2026-10-18</title>
   </circle>
 </svg>
