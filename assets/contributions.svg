@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 274" width="1000" height="274" role="img" aria-labelledby="t d">
   <title id="t">GitHub contributions</title>
-  <desc id="d">Contribution calendar for the last year: 230 contributions.</desc>
+  <desc id="d">Contribution calendar for the last year: 257 contributions.</desc>
   <defs>
     <!-- Glyph outlines used by the labels -->
     <path id="nunito-bold-2" d="M133 0 Q101 0 86 14 Q72 29 72 57 Q72 74 81 90 Q90 106 107 124 L308 338 Q354 386 374 426
@@ -9,19 +9,16 @@
         Q233 715 287 715 Q363 715 415 692 Q467 669 494 625 Q521 581 521 518 Q521 476 508 436
         Q494 396 466 355 Q439 314 395 268 L207 72 V106 H501 Q528 106 542 93 Q556 80 556 54
         Q556 28 542 14 Q528 0 501 0 Z"/>
-    <path id="nunito-bold-3" d="M286 -10 Q232 -10 174 4 Q116 18 73 46 Q53 59 46 76 Q39 93 42 108 Q46 124 58 135 Q69 146 86 148
-        Q104 150 125 139 Q166 117 204 108 Q242 98 282 98 Q326 98 356 110 Q386 122 402 146
-        Q417 170 417 204 Q417 254 384 278 Q350 303 286 303 H222 Q194 303 180 317 Q165 331 165 356
-        Q165 381 180 395 Q194 409 222 409 H274 Q312 409 339 422 Q366 434 381 457 Q396 480 396 513
-        Q396 559 366 583 Q335 607 277 607 Q240 607 208 598 Q175 590 136 567 Q118 556 102 558
-        Q85 560 74 571 Q63 582 59 598 Q55 613 61 630 Q67 646 86 658 Q129 686 181 700 Q233 715 288 715
-        Q361 715 413 692 Q465 670 492 628 Q520 587 520 528 Q520 486 504 452 Q488 417 459 393
-        Q430 369 389 359 V371 Q461 359 501 312 Q541 264 541 193 Q541 131 510 85 Q479 39 422 14
-        Q365 -10 286 -10 Z"/>
-    <path id="nunito-bold-0" d="M300 -10 Q175 -10 109 84 Q43 179 43 354 Q43 472 72 552 Q102 633 160 674 Q217 715 300 715
-        Q426 715 492 623 Q557 531 557 355 Q557 238 528 156 Q498 75 441 32 Q384 -10 300 -10 Z M300 95
-        Q368 95 400 158 Q433 221 433 355 Q433 489 400 550 Q368 610 300 610 Q233 610 200 550
-        Q167 489 167 355 Q167 221 200 158 Q233 95 300 95 Z"/>
+    <path id="nunito-bold-5" d="M306 -10 Q253 -10 198 4 Q143 18 97 47 Q78 59 72 76 Q65 92 68 108 Q72 125 84 136 Q95 148 112 150
+        Q128 152 148 141 Q185 120 223 109 Q261 98 304 98 Q346 98 376 113 Q406 128 422 155
+        Q438 182 438 218 Q438 274 404 308 Q370 343 311 343 Q279 343 249 332 Q219 322 190 296
+        Q181 288 167 280 Q153 273 137 273 Q112 273 99 286 Q86 299 86 322 V649 Q86 676 100 690
+        Q115 705 142 705 H471 Q498 705 512 692 Q527 678 527 652 Q527 627 512 613 Q498 599 471 599 H211
+        V375 H178 Q204 410 247 429 Q290 448 341 448 Q408 448 458 420 Q507 391 534 340 Q562 290 562 223
+        Q562 154 531 102 Q500 49 442 20 Q385 -10 306 -10 Z"/>
+    <path id="nunito-bold-7" d="M172 -8 Q149 -8 134 3 Q119 14 116 32 Q113 51 125 74 L427 642 V598 H103 Q76 598 62 612
+        Q47 626 47 651 Q47 677 62 691 Q76 705 103 705 H490 Q517 705 534 691 Q551 677 551 651
+        Q551 629 545 612 Q539 596 529 577 L245 34 Q234 12 216 2 Q199 -8 172 -8 Z"/>
     <path id="nunito-bold-c" d="M291 -10 Q214 -10 157 22 Q100 53 69 111 Q38 169 38 247 Q38 306 56 352 Q73 399 106 432
         Q139 464 186 482 Q233 499 291 499 Q324 499 362 490 Q401 481 435 460 Q451 450 456 436
         Q461 422 458 408 Q455 393 446 382 Q436 372 422 370 Q408 367 391 376 Q369 389 346 396
@@ -222,11 +219,11 @@
   <!-- Panel background and border -->
   <rect width="1000" height="274" rx="20" fill="#2d2f33"/>
   <rect x=".5" y=".5" width="999" height="273" rx="19.5" fill="none" stroke="#585b61"/>
-  <!-- text: 230 -->
-  <g aria-label="230">
+  <!-- text: 257 -->
+  <g aria-label="257">
     <use href="#nunito-bold-2" transform="translate(32.00 46.00) scale(0.02000 -0.02000)" fill="#d99a96"/>
-    <use href="#nunito-bold-3" transform="translate(44.00 46.00) scale(0.02000 -0.02000)" fill="#d99a96"/>
-    <use href="#nunito-bold-0" transform="translate(56.00 46.00) scale(0.02000 -0.02000)" fill="#d99a96"/>
+    <use href="#nunito-bold-5" transform="translate(44.00 46.00) scale(0.02000 -0.02000)" fill="#d99a96"/>
+    <use href="#nunito-bold-7" transform="translate(56.00 46.00) scale(0.02000 -0.02000)" fill="#d99a96"/>
   </g>
   <!-- text: contributions in the last year -->
   <g aria-label="contributions in the last year">
@@ -639,7 +636,7 @@
   <rect x="286.8" y="176.9" width="13.4" height="13.4" rx="3.4" fill="#665056">
     <title>1 contribution on 2026-02-27</title>
   </rect>
-  <rect x="286.8" y="193.9" width="13.4" height="13.4" rx="3.4" fill="#e4a8a3">
+  <rect x="286.8" y="193.9" width="13.4" height="13.4" rx="3.4" fill="#bf8087">
     <title>6 contributions on 2026-02-28</title>
   </rect>
   <rect x="303.7" y="92.0" width="13.4" height="13.4" rx="3.4" fill="#3f4146">
@@ -1137,7 +1134,7 @@
   <rect x="694.3" y="142.9" width="13.4" height="13.4" rx="3.4" fill="#8f6169">
     <title>3 contributions on 2026-08-12</title>
   </rect>
-  <rect x="694.3" y="159.9" width="13.4" height="13.4" rx="3.4" fill="#e4a8a3">
+  <rect x="694.3" y="159.9" width="13.4" height="13.4" rx="3.4" fill="#bf8087">
     <title>6 contributions on 2026-08-13</title>
   </rect>
   <rect x="694.3" y="176.9" width="13.4" height="13.4" rx="3.4" fill="#e4a8a3">
@@ -1227,7 +1224,7 @@
   <rect x="762.2" y="176.9" width="13.4" height="13.4" rx="3.4" fill="#3f4146">
     <title>0 contributions on 2026-09-11</title>
   </rect>
-  <rect x="762.2" y="193.9" width="13.4" height="13.4" rx="3.4" fill="#e4a8a3">
+  <rect x="762.2" y="193.9" width="13.4" height="13.4" rx="3.4" fill="#bf8087">
     <title>6 contributions on 2026-09-12</title>
   </rect>
   <rect x="779.2" y="92.0" width="13.4" height="13.4" rx="3.4" fill="#3f4146">
@@ -1446,17 +1443,20 @@
   <rect x="949.0" y="109.0" width="13.4" height="13.4" rx="3.4" fill="#e4a8a3">
     <title>18 contributions on 2026-11-23</title>
   </rect>
-  <rect x="949.0" y="126.0" width="13.4" height="13.4" rx="3.4" fill="#3f4146">
-    <title>0 contributions on 2026-11-24</title>
+  <rect x="949.0" y="126.0" width="13.4" height="13.4" rx="3.4" fill="#bf8087">
+    <title>6 contributions on 2026-11-24</title>
   </rect>
-  <rect x="949.0" y="142.9" width="13.4" height="13.4" rx="3.4" fill="#3f4146">
-    <title>0 contributions on 2026-11-25</title>
+  <rect x="949.0" y="142.9" width="13.4" height="13.4" rx="3.4" fill="#e4a8a3">
+    <title>10 contributions on 2026-11-25</title>
   </rect>
   <rect x="949.0" y="159.9" width="13.4" height="13.4" rx="3.4" fill="#3f4146">
     <title>0 contributions on 2026-11-26</title>
   </rect>
-  <rect x="949.0" y="176.9" width="13.4" height="13.4" rx="3.4" fill="#3f4146">
-    <title>0 contributions on 2026-11-27</title>
+  <rect x="949.0" y="176.9" width="13.4" height="13.4" rx="3.4" fill="#e4a8a3">
+    <title>8 contributions on 2026-11-27</title>
+  </rect>
+  <rect x="949.0" y="193.9" width="13.4" height="13.4" rx="3.4" fill="#8f6169">
+    <title>3 contributions on 2026-11-28</title>
   </rect>
   <!-- Legend -->
   <!-- text: More -->
